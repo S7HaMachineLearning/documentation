@@ -1,6 +1,13 @@
 ## Hoofdvraag / doel
 
+### Hoofdvraag 
 Hoe kan er door middel van machine learning Home Assistant gebruikers assisteren met het automatiseren van hun Home assistant instance. 
+
+### Doel
+Het doel van dit project is om door middel van machinelearning een smarthome te automatiseren. Er zal op basis van gedrag en user feedaback automations worden gegenereed en verbeterd. 
+
+### Organisatie
+Het project is opensource. iedere home assistan gebruiker kan gebruik maken van het project. Bijdragen leveren staat voor iedereen open. Om een bijdragen te leveren doe je een pull request. Wanneer je je code pusht zal er een QA worden gedaan door Bastiaan, Bram en Harm. Wanneer de push word goedgekeurd dan word de code gemerged 
 
 ### Sub vraag 1
 Hoe kunnen we de machine/ algoritme aanleren wat het gedrag is van de gebruiker op basis van handeling (externe input). 
@@ -19,6 +26,13 @@ Kunnen we door middel van machine learning suggesties doen voor het aankopen van
 
 ### Sub vraag 6
 Kunnen we door middel van machine learning bestaande automations verbeteren. 
+
+
+## Roadmap 
+
+### Iteratie 1
+
+
 
 
 ---
