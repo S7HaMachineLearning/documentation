@@ -3,71 +3,21 @@
 ## Automated automations
 
 
-
-<<Klant>>
-
-<<PLAATS>>
-
-<<
-
-Deze template kun je gebruiken voor alle projecten – hoofdstukken of onderdelen die niet van toepassing zijn voor het specifieke project (bv. een hoofdstuk Financiën voor een afstudeeropdracht) kun je weglaten. 
-
-Teksten in <<italic>> zijn ter informatie wat er in elke sectie moet komen te staan en verwijder je uit het einddocument
-
-De lay-out van de template kun je uiteraard aan je eigen smaak/instellingen aanpassen
-
->>
-
-Datum			:	20/02/2023
-Versie			:	0.1
-Status			:	Draft
-Auteur			:	Bram van Deventer, Bastiaan Clement, Harm van Genesen
-Versie
+| Datum | Versie | Status | Auteur |
+| --- | ---| --- | --- |
+| 20/02/2023 | 0.1 | Draft | Bram van Deventer, Bastiaan Clement, Harm van Genesen |
 
 
-
-Versie
-
-Datum
-
-Auteur(s)
-
-Wijzigingen
-
-Status
-
-0.1
-
-20/02/2023
-
-BvD, BC, HvG
-
-Eerste opzet
-
-Draft
+| Versie | Datum | Auteur(s) | Wijzigingen | Status |
+| --- | --- | --- | --- | --- | 
+| 0.1 | 20/02/2023 | BvD, BC, HvG | Eerste opzet | Draft |
 
 
+| Verspreiding | Versie | Datum | Aan |
+| --- | --- | --- | --- |
 
 
-
-Verspreiding
-
-Versie
-
-Datum
-
-Aan
-
-
-
-
-
-Inhoudsopgave
-
-
-
-
-
+## Inhoudsopgave
 
 
 Projectopdracht
