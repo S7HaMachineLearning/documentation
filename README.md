@@ -20,37 +20,31 @@
 ## Inhoudsopgave
 
 
-Projectopdracht
+## Projectopdracht
 
-Context
+## Context
 
-<<Beschrijf hier kort het bedrijf en de context van de opdracht.>>
+(Beschrijf hier kort het bedrijf en de context van de opdracht.)
 
 
 
-Platform
+## Platform
 
 Het product wat er word gemaakt in dit project is specifiek bedoeld voor het Home Assistant platform. Home Assistant is een gratis platform wat iedereen op een eigen computer thuis kan draaien waarmee zij smarthome producten kunnen koppelen en aansturen. Ook is het mogelijk of “automations” te schrijven binnen het platform om zo automatisch smarthome producten aan te sturen. 
 
 
 
-Organisatie
+## Organisatie
 
 Het project is opensource. Iedere home assistan gebruiker kan gebruik maken van de oplossing die word ontwikkeld. Bijdragen leveren staat voor iedereen open. Om een bijdragen te leveren doe je een pull request. Wanneer je je code pusht zal er een QA worden gedaan door Bastiaan, Bram en Harm. Wanneer de push word goedgekeurd dan word de code gemerged
 
-Doel van het project
+## Doel van het project
 
-<<Beschrijf hier het doel van het project. Denk aan:
-
+(Beschrijf hier het doel van het project. Denk aan:
 Waarom moet dit project gerealiseerd worden?(Dit kan je opdrachtgever aangeven)
-
-Hoe ziet de gewenste situatie eruit?
-
-Welke voordelen biedt het project?
-
-Welke mogelijkheden (capabilities, facilities) biedt het product of het projectresultaat?
-
-.>>
+Hoe ziet de gewenste situatie eruit? 
+Welke voordelen biedt het project? 
+Welke mogelijkheden (capabilities, facilities) biedt het product of het projectresultaat?.)
 
 
 
@@ -58,137 +52,86 @@ Door middel van AI Home Assistant users onderstuenen door automations te generen
 
 
 
-Begrenzing en Randvoorwaarden
+## Begrenzing en Randvoorwaarden
 
-<<Welke producten behoren wel en welke behoren niet tot het project>>.
+(Welke producten behoren wel en welke behoren niet tot het project)
 
+| Tot het project behoort: | Tot het project behoort niet: |
+| --- | --- | 
+| De oplossing(en) lokaal draaiende krijgen binnen het platform. | De plugin beschikbaar maken voor de Home Assistant communitie.|
+| Product 1: user tracking en automation |Product 1: user interface |
+|Product 2: Trainen van een machine dmv GUI | | 
+| Product 3: Yaml genereren vanuit info Product 1&2 | Product 3: User interface |
 
-
-Tot het project behoort:
-
-Tot het project behoort niet:
-
-De oplossing(en) lokaal draaiende krijgen binnen het platform.
-
-De plugin beschikbaar maken voor de Home Assistant communitie.
-
-Product 1: user tracking en automation 
-
-Product 1: user interface
-
-Product 2: Trainen van een machine dmv GUI
-
-Product 3: Yaml genereren vanuit info Product 1&2
-
-Product 3: User interface
+(Geef voor zover nodig aan wat de randvoorwaarden (constraints) zijn. Denk bijvoorbeeld aan door bedrijf gestelde technologie. Merk op dat hier een kritische houding van belang blijft!)
 
 
 
-<< Geef voor zover nodig aan wat de randvoorwaarden (constraints) zijn. Denk bijvoorbeeld aan door bedrijf gestelde technologie. Merk op dat hier een kritische houding van belang blijft!>>
+## Strategie
 
+(Ook wel aanpak genoemd. Beschrijf hier hoe het project wordt aangepakt en waarom er voor deze aanpak gekozen is.
+Voor stage/afstuderen: Geef hier ook aan welke methode je volgt in je projectplan, bijvoorbeeld of je een waterval-, of scrum-methode gebruikt. Geef ook aan hoe je de probleemdefinitiefase en afrondingsfase gaat aanpakken)
 
-
-Strategie
-
-<<Ook wel aanpak genoemd. Beschrijf hier hoe het project wordt aangepakt en waarom er voor deze aanpak gekozen is.
-
-Voor stage/afstuderen: Geef hier ook aan welke methode je volgt in je projectplan, bijvoorbeeld of je een waterval-, of scrum-methode gebruikt. Geef ook aan hoe je de probleemdefinitiefase en afrondingsfase gaat aanpakken>>. 
-
-
-
-Werk methode
+## Werk methode
 
 De werk mothode die word toegepast binnen dit project is Scrum/Agile. Dit word gedaan omdat er in iteraties/sprints word gewerkt. De samenstelling van de groep zal ook baat hebben bij de scrum methode om zo overzichtelijk te houden waar iedereen aan werkt. 
 
 
 
-Onderzoeksvragen
+## Onderzoeksvragen
 
-<<Deze paragraaf is alleen van toepassing voor stage- en afstudeeropdrachten.
-
+(Deze paragraaf is alleen van toepassing voor stage- en afstudeeropdrachten.
 Beschrijf welke onderzoeksvragen je in ieder geval wil gaan beantwoorden. Beschrijf per onderzoeksvraag hoe je wil gaan aanpakken: welke onderzoeksstrategieën (veld, bieb, etc) ga je hiervoor toepassen, en welke methoden horen daarbij. 
-
 Bedenk dat je tijdens je gehele afstuderen onderzoekend aan het werk bent, en dat je vragen dus over je hele afstudeertraject gaan.  
-
 Bedenk dat je tijdens je stage/afstuderen nog tegen meer onderzoeksvragen zult aanlopen die je op dat moment ook weer met bepaling van strategieën en methodes aanpakt. 
+Merk op dat het het kan gebeuren dat je onderzoeksvragen tijdens je stage/afstuderen veranderen  of je aanpak nog wijzigt.)
 
-Merk op dat het het kan gebeuren dat je onderzoeksvragen tijdens je stage/afstuderen veranderen  of je aanpak nog wijzigt. 
+## Hoofdvraag 
 
->>
+Hoe kunnen we Home Assistant gebruikers ondersteunen met het automatiseren van hun smarthome door automatisch yaml automations te genereren.
 
-	
-
-Hoofdvraag 
-
-
-
-Hoe kunnen we Home Assistant gebruikers ondersteunen met het automatiseren van hun smarthome door automatisch yaml 
-
-automations te genereren.
-
-
-
-Onderzoeksvraag 1 HvG
+### Onderzoeksvraag 1 HvG
 
 Hoe kan er op basis van het gedrag van de home assistant gebruiker voorspellingen gedaan worden om automations te genereren. 
 
+**Sub vragen:**
+
+- Welke soortgelijke oplossingen zijn er al op de markt en wat voor technieken worden daarvoor gebruikt om dit probleem op te lossen? **
+
+- Welke Artificial Intelligence technologie is het meest geschikt voor het lezen en automatiseren van het gebruikers patroon (Machine Learning, Deep Learning, Robotic Process Automation). **
+
+- Hoe functioneren de verschillende AI technologieën binnen Home assistant? **
+
+- Wat is de minimale dataset grootte?
+
+- Hoe kan het omgaan met verschillende soorten databases? 
+
+- Hoe gaat het om met de verschillende programmeer/config talen binnen Home Assistant (YAML, Python, etc.).
+
+- Hoe kan de data uit Home Assistant gebruikt worden voor de gekozen techniek. 
+
+- Welk platform, framework, library binnen te gekozen techniek is het meest geschikt voor het voorspellen van gedrag. 
+
+- Welk platform, framework, library binnen te gekozen techniek is het meest geschikt voor het genereren van automations. 
 
 
 
-
-Sub vragen:
-
+** Kan invloed hebben op onderstaande onderzoeksvragen. 
 
 
-Welke soortgelijke oplossingen zijn er al op de markt en wat voor technieken worden daarvoor gebruikt om dit probleem op te lossen? *
-
-Welke Artificial Intelligence technologie is het meest geschikt voor het lezen en automatiseren van het gebruikers patroon (Machine Learning, Deep Learning, Robotic Process Automation). *
-
-Hoe functioneren de verschillende AI technologieën binnen Home assistant? *
-
-Wat is de minimale dataset grootte?
-
-Hoe kan het omgaan met verschillende soorten databases? 
-
-Hoe gaat het om met de verschillende programmeer/config talen binnen Home Assistant (YAML, Python, etc.).
-
-Hoe kan de data uit Home Assistant gebruikt worden voor de gekozen techniek. 
-
-Welk platform, framework, library binnen te gekozen techniek is het meest geschikt voor het voorspellen van gedrag. 
-
-Welk platform, framework, library binnen te gekozen techniek is het meest geschikt voor het genereren van automations. 
-
-
-
-* Kan invloed hebben op onderstaande onderzoeksvragen. 
-
-
-
-Potentiele onderzoeksmethode: (ictresearchmethods.nl)
-
-
+**Potentiele onderzoeksmethode: (ictresearchmethods.nl)**
 
 Library: Community Research, Available product analysis.
-
 Lab: Data analytics, Usability testing.
-
 Showroom: Product review, Pitch.
-
 Workshop: Prototyping.
 
 
-
-
-
-Onderzoeksvraag 2 BvD
+### Onderzoeksvraag 2 BvD
 
 Hoe kan er op basis van gebruikersfeedback de machinelearning model getraind worden.
 
-
-
 Sub vragen:
-
-
 
 Welke soort machine learning is het beste geschikt om aangestuurd te worden door externe userinput zodat deze zichtzelf kan corrigeren? 
 
@@ -201,8 +144,6 @@ Hoe kan ik een interface voor de user verzorgen zodat deze op een makkelijke man
 
 
 Potentiele onderzoeksmethode:
-
-
 
 Library: Literature study, Available product analysis.
 
@@ -253,30 +194,15 @@ Workshop: Prototyping.
 Onderzoeksmethode Machine learning 
 
 
+## Eindproducten
 
+(Een Product Breakdown Structure van de eindproducten die het project op gaat leveren met een korte omschrijving in tekst van elk product. Merk op dat je op later moment in overleg kunt besluiten om je PBS te wijzigen.)
 
+## Projectorganisatie
 
-		
+**Teamleden**
 
-Eindproducten
-
-<<Een Product Breakdown Structure van de eindproducten die het project op gaat leveren met een korte omschrijving in tekst van elk product. Merk op dat je op later moment in overleg kunt besluiten om je PBS te wijzigen.>>
-
-
-
-
-
-
-
-
-
-Projectorganisatie
-
-Teamleden
-
-<<Geef aan wie betrokken is bij je project en wat zijn/haar functie en wat de rol binnen jouw project is. Zo kan iemand met functie “manager van afdeling X” de rol van Product Owner hebben in jouw project. >> 
-
-
+(Geef aan wie betrokken is bij je project en wat zijn/haar functie en wat de rol binnen jouw project is. Zo kan iemand met functie “manager van afdeling X” de rol van Product Owner hebben in jouw project. )
 
 Naam + tel + e-mail
 
