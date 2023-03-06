@@ -168,15 +168,15 @@ Showroom: Product review, Pitch.
 Workshop: Prototyping.
 
 
+[Onderzoeksmethode Machine learning]([Onderzoeksmethode Machine learning](https://ictresearchmethods.nl/Domain:_Machine_learning)) 
 
-
-
-Onderzoeksmethode Machine learning 
-
+![[2023-03-06 08_52_08-Fontys - Projectplan - Template v2.0 - Word.png]]
 
 ### 1.6 Eindproducten
 
 (Een Product Breakdown Structure van de eindproducten die het project op gaat leveren met een korte omschrijving in tekst van elk product. Merk op dat je op later moment in overleg kunt besluiten om je PBS te wijzigen.)
+
+![[2023-03-06 08_52_36-Fontys - Projectplan - Template v2.0 - Word.png]]
 
 ## 2. Projectorganisatie
 
