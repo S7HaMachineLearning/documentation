@@ -18,71 +18,51 @@
 
 
 ## Inhoudsopgave
+#todo inhoudsopgaven gereed maken.
 
-
-[1. Projectopdracht]([S7HaMachineLearning/documentation: documentation in obsidian (github.com)](https://github.com/S7HaMachineLearning/documentation#1-projectopdracht))/
+[1. Projectopdracht](https://github.com/S7HaMachineLearning/documentation#1-projectopdracht)
 [2. Projectorganisatie](documentation#2-Projectorganisatie)
 
 ## 1. Projectopdracht
 
 ### 1.1 Context
 
-(Beschrijf hier kort het bedrijf en de context van de opdracht.)
+#### Platform
 
-**Platform**
+Het product wat er word gemaakt in dit project is specifiek bedoeld voor het Home Assistant platform. Home Assistant is een gratis opensource platform wat iedereen op een eigen computer/server thuis kan draaien waarmee zij smarthome producten kunnen koppelen en aansturen. Ook is het mogelijk of “automations” te schrijven binnen het platform om zo automatisch smarthome producten aan te sturen. Het is mogelijk om voor Home Assistant Add-ons te maken die andere gebruikers kunnen installeren op hun eigen instance. 
 
-Het product wat er word gemaakt in dit project is specifiek bedoeld voor het Home Assistant platform. Home Assistant is een gratis platform wat iedereen op een eigen computer thuis kan draaien waarmee zij smarthome producten kunnen koppelen en aansturen. Ook is het mogelijk of “automations” te schrijven binnen het platform om zo automatisch smarthome producten aan te sturen. 
+#### Organisatie
 
-**Organisatie**
-
-Het project is opensource. Iedere home assistan gebruiker kan gebruik maken van de oplossing die word ontwikkeld. Bijdragen leveren staat voor iedereen open. Om een bijdragen te leveren doe je een pull request. Wanneer je je code pusht zal er een QA worden gedaan door Bastiaan, Bram en Harm. Wanneer de push word goedgekeurd dan word de code gemerged
+Het project is opensource. Iedere Home Assistan gebruiker kan gebruik maken van de oplossing die word ontwikkeld. Bijdragen leveren staat voor iedereen open. Om een bijdragen te leveren doe je een pull request. Wanneer je je code pusht zal er een QA worden gedaan door Bastiaan, Bram en Harm. Wanneer de push word goedgekeurd dan word de code gemerged. Voordat wij het project open zetten voor bijdragen moet er tenminste een MVP staan. De MVP is geen leeruitkomst voor dit semester. 
 
 ### 1.2 Doel van het project
 
-(Beschrijf hier het doel van het project. Denk aan:
-Waarom moet dit project gerealiseerd worden?(Dit kan je opdrachtgever aangeven)
-Hoe ziet de gewenste situatie eruit? 
-Welke voordelen biedt het project? 
-Welke mogelijkheden (capabilities, facilities) biedt het product of het projectresultaat?.)
+#### Doel
 
-**Doel**
-Door middel van AI Home Assistant users onderstuenen door automations te generen en verbeteren op basis van gedrag en feedback.
+Het doel van dit project is om op basis van gebruikers gedrag en feedback automations te genereren. De eerste intentie is om dit project te gebruiken om meer te leren over Machine Learning. Mocht het het zo zijn dat het in de loop van het semester duidelijk word dat dit niet haalbaar is dan zullen we tijdig van strategie veranderen. 
 
 ### 1.3 Begrenzing en Randvoorwaarden
 
-(Welke producten behoren wel en welke behoren niet tot het project)
 
 | Tot het project behoort: | Tot het project behoort niet: |
 | --- | --- | 
-| De oplossing(en) lokaal draaiende krijgen binnen het platform. | De plugin beschikbaar maken voor de Home Assistant communitie.|
-| Product 1: user tracking en automation |Product 1: user interface |
-|Product 2: Trainen van een machine dmv GUI | | 
-| Product 3: Yaml genereren vanuit info Product 1&2 | Product 3: User interface |
+| Een ML model ontwikkelen per product. | Een volledig product beschikbaar maken voor de Home Assistant communitie.|
+|  | Een user interface wanneer dit niet noodzakelijk is |
 
-(Geef voor zover nodig aan wat de randvoorwaarden (constraints) zijn. Denk bijvoorbeeld aan door bedrijf gestelde technologie. Merk op dat hier een kritische houding van belang blijft!)
-
+De voorkeur is om machine learning toe te passen in dit project om zo bepaalde leerdoelen te kunnen vervullen. Mocht het zo zijn dat het niet haalbaar blijkt te zijn dan kan er afgeweken worden van deze voorkeur. 
 
 
 ### 1.4 Strategie
 
-(Ook wel aanpak genoemd. Beschrijf hier hoe het project wordt aangepakt en waarom er voor deze aanpak gekozen is.
-Voor stage/afstuderen: Geef hier ook aan welke methode je volgt in je projectplan, bijvoorbeeld of je een waterval-, of scrum-methode gebruikt. Geef ook aan hoe je de probleemdefinitiefase en afrondingsfase gaat aanpakken)
+#### Werk methode
 
-**Werk methode**
-
-De werk mothode die word toegepast binnen dit project is Scrum/Agile. Dit word gedaan omdat er in iteraties/sprints word gewerkt. De samenstelling van de groep zal ook baat hebben bij de scrum methode om zo overzichtelijk te houden waar iedereen aan werkt. 
+De werk mothode die word toegepast binnen dit project is Scrum/Agile. Dit word gedaan omdat er in iteraties/sprints word gewerkt. De samenstelling van de groep zal ook baat hebben bij de scrum methode om zo overzichtelijk te houden waar iedereen aan werkt en wat de taakverdelingen zijn.  
 
 ### 1.5 Onderzoeksvragen
 
-(Deze paragraaf is alleen van toepassing voor stage- en afstudeeropdrachten.
-Beschrijf welke onderzoeksvragen je in ieder geval wil gaan beantwoorden. Beschrijf per onderzoeksvraag hoe je wil gaan aanpakken: welke onderzoeksstrategieën (veld, bieb, etc) ga je hiervoor toepassen, en welke methoden horen daarbij. 
-Bedenk dat je tijdens je gehele afstuderen onderzoekend aan het werk bent, en dat je vragen dus over je hele afstudeertraject gaan.  
-Bedenk dat je tijdens je stage/afstuderen nog tegen meer onderzoeksvragen zult aanlopen die je op dat moment ook weer met bepaling van strategieën en methodes aanpakt. 
-Merk op dat het het kan gebeuren dat je onderzoeksvragen tijdens je stage/afstuderen veranderen  of je aanpak nog wijzigt.)
-
 #### Hoofdvraag
 
-Hoe kunnen we Home Assistant gebruikers ondersteunen met het automatiseren van hun smarthome door automatisch yaml automations te genereren.
+Hoe kunnen we Home Assistant gebruikers ondersteunen met het automatiseren van hun smarthome door yaml automations te genereren.
 
 ##### Onderzoeksvraag 1 HvG
 
@@ -102,8 +82,7 @@ Hoe kan er op basis van het gedrag van de home assistant gebruiker voorspellinge
 
 ** Kan invloed hebben op onderstaande onderzoeksvragen. 
 
-**Potentiele onderzoeksmethode: (ictresearchmethods.nl)**
-
+**Potentiele onderzoeksmethode:
 - Library: Community Research, Available product analysis.
 - Lab: Data analytics, Usability testing.
 - Showroom: Product review, Pitch.
@@ -185,51 +164,41 @@ Workshop: Prototyping.
 
 ### 2.1 Teamleden
 
-(Geef aan wie betrokken is bij je project en wat zijn/haar functie en wat de rol binnen jouw project is. Zo kan iemand met functie “manager van afdeling X” de rol van Product Owner hebben in jouw project. )
-
 | Naam + tel + e-mail | Afk. | Rol/taken | Beschikbaarheid |
 | --- | --- | ---| --- |
-| Bastiaan Clement b.clement@student.fontys.nl| BC | Developer | Welke beschikbaarheid van de persoon is noodzakelijk (bijv. 3 dagen per week, gedurende fase 2)|
-|Bram van Deventer b.vandeventer@student.fontys.nl | BvD | Developer Scrum master | |
-| Harm van Genesen h.vangenesen@student.fontys.nl | HvG | Developer Product owner | |
+| Bastiaan Clement b.clement@student.fontys.nl| BC | Developer | Maandag vrij om aan het project te werken |
+|Bram van Deventer b.vandeventer@student.fontys.nl | BvD | Developer Scrum master | Maandag vrij om aan het project te werken |
+| Harm van Genesen h.vangenesen@student.fontys.nl | HvG | Developer Product owner | Maandag vrij om aan het project te werken |
 
 ### 2.2 Communicatie
 
-(Geef aan welke communicatie/afstemmingen er zijn. Denk aan afstemming met bedrijfsbegeleider, docentbegeleider en met andere stakeholders. Op welke manier en hoe vaak vinden deze afstemmingen plaats ?)
-
-**Meetings team:** 
+#### Meetings team:
 - Stand up 1 x/W
 - Sprint planning 1 x/Sprint
 - Team building 1á2 x/W
 
-**Meetings docenten / stakeholder:**
+#### Meetings docenten / stakeholder:
 - Contact moment 1á2 x/Sprint
 
-**Meetings klasgenoten:**
+#### Meetings klasgenoten:
 - Update/presentatie 1 x/ 1á2Sprints?
 
 ## 3. Activiteiten en tijdplan
 
 ### 3.1 Opdeling en aanpak van het project
 
-(Geef hier de grove opdeling en aanpak van het project (of de onderdelen) weer. 
-Bij een scrum aanpak kun je denken aan lengte van sprints, opzet van je sprints, stand up, opzet van demo’s, retrospective, etc).. )
+Het project zal bestaan uit 6 sprints van 3 weken.  Tijdens deze sprint zullen er verschillende scrum rituelen plaatsvinden. 
+
+| Scrum rituelen  | moment | 
+| --- | --- | 
+| standup | Maandag & donderdag |
+| Samenwerk sessie | Maandag & donderdag |
+| Sprint review / demo | Week na eide sprint |
+
 
 ### 3.2 Tijdplan
 
-(Afhankelijk van je project methode zul je de fasering al in meer of minder detail kunnen uitwerken. Hieronder een mogelijke tabel die je hiervoor kunt gebruiken. 
-Merk op dat je bij een agile aanpak bij de meeste projecten nog een probleemanalyse/orientatie fase (of ‘sprint 0”) hebt, en ook een afronding/evaluatie fase. 
-Let ook op dat je voldoende tijd voor je scriptie of afronding van portfolio reserveert en hier op tijd mee start.)
-
-| Sprints | Effort | Start | Gereed |
-| --- | --- | --- | --- | 
-| 1| | | |
-| 2| | | |
-| 3| | | |
-| 4| | | |
-| 5| | | |
-| 6| | | |
-
+Zie voor het tijdsplan de [Roadmap]([Automated automations - Roadmap - Jira (atlassian.net)](https://prophecy1.atlassian.net/jira/software/projects/AA/boards/2/roadmap)) van dit project.  
 
 ## 4. Testaanpak en Configuratiemanagement
 
@@ -237,24 +206,28 @@ Let ook op dat je voldoende tijd voor je scriptie of afronding van portfolio res
 
 (Hoe wordt het testen vorm gegeven. Wat is de aanpak? En waarom? Neem eventuele aanpak rondom (Code) reviews hierin ook op)
 
+Dit moet nog worden uitgezocht. 
+
 ### 4.2 Testomgeving en benodigdheden
 
 (Beschrijf hoe de testomgeving er uit ziet. Een plaatje geeft over het algemeen het beste overzicht.
 Beschrijf welke producten in de testomgeving opgenomen zijn, Dit kunnen producten zijn die het project oplevert maar ook externe producten die noodzakelijk zijn om de testaanpak uit te voeren (bijv. computers).)
 
+Dit moet nog worden uitgezocht. 
+
 ### 4.3 Configuratiemanagement
 
-(Beschrijf hoe wordt het archief wordt ingericht. Je kunt hier gebruik maken van een schema.Beschrijf ook welke baselines en releases je voorziet.)
+Er is een [GitHub]([S7HaMachineLearning (github.com)](https://github.com/S7HaMachineLearning)) project waar alle repos in koment te staan. Dit is gelijk ons versie beheer.  
 
-## 5. Financiën en Risico’s
+## ~~5. Financiën en Risico’s
 
-### 5.1 Kostenbudget
+### ~~5.1 Kostenbudget
 
-(Als specifieke kosten moeten worden gemaakt voor je project, geef deze dan aan. Denk aan extra hardware of software investeringen. Reguliere zaken zoals werkplek, je stage-vergoeding, etc hoeven niet meegenomen te worden.)
+~~(Als specifieke kosten moeten worden gemaakt voor je project, geef deze dan aan. Denk aan extra hardware of software investeringen. Reguliere zaken zoals werkplek, je stage-vergoeding, etc hoeven niet meegenomen te worden.)
 
-### 5.2 Risico’s en uitwijkactiviteiten
+### ~~5.2 Risico’s en uitwijkactiviteiten~~
 
-(Definieer risico’s. Wat heb je al in het plan opgenomen om het risico te beperken of te voorkomen. Welke keuze wordt gemaakt wanneer het risico onverhoopt toch optreedt.
+~~(Definieer risico’s. Wat heb je al in het plan opgenomen om het risico te beperken of te voorkomen. Welke keuze wordt gemaakt wanneer het risico onverhoopt toch optreedt.
 Denk aan reele risico’s die je project daadwerkelijk kunnen beinvloeden. Zo kan het risico zijn dat je bedrijfsbegeleider wegvalt, bijvoorbeeld door ziekte of doordat hij iets anders gaat doen. Is er dan een backup in het bedrijf ?)
 
 | Risico | Activiteiten ter voorkoming opgenomen in plan | Uitwijkactiviteiten |
