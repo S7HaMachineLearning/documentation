@@ -20,6 +20,9 @@
 ## Inhoudsopgave
 
 
+[1. Projectopdracht](documentation#1-projectopdracht)
+[2. Projectorganisatie](documentation#2-Projectorganisatie)
+
 ## 1. Projectopdracht
 
 ### 1.1 Context
