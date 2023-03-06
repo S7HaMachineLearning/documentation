@@ -219,16 +219,15 @@ Dit moet nog worden uitgezocht.
 
 Er is een [GitHub]([S7HaMachineLearning (github.com)](https://github.com/S7HaMachineLearning)) project waar alle repos in koment te staan. Dit is gelijk ons versie beheer.  
 
-## ~~5. Financiën en Risico’s
+## 5. Financiën en Risico’s
 
-### ~~5.1 Kostenbudget
+### 5.1 Kostenbudget
 
-~~(Als specifieke kosten moeten worden gemaakt voor je project, geef deze dan aan. Denk aan extra hardware of software investeringen. Reguliere zaken zoals werkplek, je stage-vergoeding, etc hoeven niet meegenomen te worden.)
+**Niet van toepassing voor dit project**
 
-### ~~5.2 Risico’s en uitwijkactiviteiten~~
+### 5.2 Risico’s en uitwijkactiviteiten
 
-~~(Definieer risico’s. Wat heb je al in het plan opgenomen om het risico te beperken of te voorkomen. Welke keuze wordt gemaakt wanneer het risico onverhoopt toch optreedt.
-Denk aan reele risico’s die je project daadwerkelijk kunnen beinvloeden. Zo kan het risico zijn dat je bedrijfsbegeleider wegvalt, bijvoorbeeld door ziekte of doordat hij iets anders gaat doen. Is er dan een backup in het bedrijf ?)
+**Niet van toepassing voor dit project**
 
 | Risico | Activiteiten ter voorkoming opgenomen in plan | Uitwijkactiviteiten |
 | --- | --- | ---| 
