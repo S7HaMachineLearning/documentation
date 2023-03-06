@@ -20,7 +20,7 @@
 ## Inhoudsopgave
 
 
-[1. Projectopdracht](documentation#1-projectopdracht)
+[1. Projectopdracht]([S7HaMachineLearning/documentation: documentation in obsidian (github.com)](https://github.com/S7HaMachineLearning/documentation#1-projectopdracht))/
 [2. Projectorganisatie](documentation#2-Projectorganisatie)
 
 ## 1. Projectopdracht
