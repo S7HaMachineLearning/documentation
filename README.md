@@ -92,39 +92,28 @@ Hoe kunnen we Home Assistant gebruikers ondersteunen met het automatiseren van h
 
 ### Onderzoeksvraag 1 HvG
 
-Hoe kan er op basis van het gedrag van de home assistant gebruiker voorspellingen gedaan worden om automations te genereren. 
+Hoe kan er op basis van het gedrag van de home assistant gebruiker voorspellingen gedaan worden ~~om automations te genereren~~. 
 
 **Sub vragen:**
 
 - Welke soortgelijke oplossingen zijn er al op de markt en wat voor technieken worden daarvoor gebruikt om dit probleem op te lossen? **
-
-- Welke Artificial Intelligence technologie is het meest geschikt voor het lezen en automatiseren van het gebruikers patroon (Machine Learning, Deep Learning, Robotic Process Automation). **
-
+- Welke AI technologie is het meest geschikt voor het lezen en automatiseren van het gebruikers patroon (Machine Learning, Deep Learning, Robotic Process Automation). **
 - Hoe functioneren de verschillende AI technologieën binnen Home assistant? **
-
-- Wat is de minimale dataset grootte?
-
-- Hoe kan het omgaan met verschillende soorten databases? 
-
-- Hoe gaat het om met de verschillende programmeer/config talen binnen Home Assistant (YAML, Python, etc.).
-
+	- Wat is de minimale dataset grootte?
+	- Hoe kan het omgaan met verschillende soorten databases? 
+	- Hoe gaat het om met de verschillende programmeer/config talen binnen Home Assistant (YAML, Python, etc.).
 - Hoe kan de data uit Home Assistant gebruikt worden voor de gekozen techniek. 
-
 - Welk platform, framework, library binnen te gekozen techniek is het meest geschikt voor het voorspellen van gedrag. 
-
-- Welk platform, framework, library binnen te gekozen techniek is het meest geschikt voor het genereren van automations. 
-
-
+- ~~Welk platform, framework, library binnen te gekozen techniek is het meest geschikt voor het genereren van automations~~. 
 
 ** Kan invloed hebben op onderstaande onderzoeksvragen. 
 
-
 **Potentiele onderzoeksmethode: (ictresearchmethods.nl)**
 
-Library: Community Research, Available product analysis.
-Lab: Data analytics, Usability testing.
-Showroom: Product review, Pitch.
-Workshop: Prototyping.
+- Library: Community Research, Available product analysis.
+- Lab: Data analytics, Usability testing.
+- Showroom: Product review, Pitch.
+- Workshop: Prototyping.
 
 
 ### Onderzoeksvraag 2 BvD
@@ -204,150 +193,83 @@ Onderzoeksmethode Machine learning
 
 (Geef aan wie betrokken is bij je project en wat zijn/haar functie en wat de rol binnen jouw project is. Zo kan iemand met functie “manager van afdeling X” de rol van Product Owner hebben in jouw project. )
 
-Naam + tel + e-mail
+| Naam + tel + e-mail | Afk. | Rol/taken | Beschikbaarheid |
+| --- | --- | ---| --- |
+| Bastiaan Clement b.clement@student.fontys.nl| BC | Developer | Welke beschikbaarheid van de persoon is noodzakelijk (bijv. 3 dagen per week, gedurende fase 2)|
+|Bram van Deventer b.vandeventer@student.fontys.nl | BvD | Developer Scrum master | |
+| Harm van Genesen h.vangenesen@student.fontys.nl | HvG | Developer Product owner | |
 
-Afk.
+## Communicatie
 
-Rol/taken
+(Geef aan welke communicatie/afstemmingen er zijn. Denk aan afstemming met bedrijfsbegeleider, docentbegeleider en met andere stakeholders. Op welke manier en hoe vaak vinden deze afstemmingen plaats ?)
 
-Beschikbaarheid
+**Meetings team:** 
 
-Bastiaan Clement
+- Stand up 1 x/W
+- Sprint planning 1 x/Sprint
+- Team building 1á2 x/W
 
-b.clement@student.fontys.nl
+** Meetings docenten / stakeholder:**
 
-BC
+- Contact moment 1á2 x/Sprint
 
-Developer
+**Meetings klasgenoten:**
 
-Welke beschikbaarheid van de persoon is noodzakelijk (bijv. 3 dagen per week, gedurende fase 2)
+- Update/presentatie 1 x/ 1á2Sprints?
 
-Bram van Deventer
+## Activiteiten en tijdplan
 
-b.vandeventer@student.fontys.nl
+**Opdeling en aanpak van het project**
 
-BvD
+(Geef hier de grove opdeling en aanpak van het project (of de onderdelen) weer. 
+Bij een scrum aanpak kun je denken aan lengte van sprints, opzet van je sprints, stand up, opzet van demo’s, retrospective, etc).. )
 
-Developer
+**Tijdplan**
 
-Scrum master
-
-Harm van Genesen
-
-h.vangenesen@student.fontys.nl
-
-HvG
-
-Developer
-
-Product owner
-
-
-
-Communicatie
-
-
-
-<< Geef aan welke communicatie/afstemmingen er zijn. Denk aan afstemming met bedrijfsbegeleider, docentbegeleider en met andere stakeholders. Op welke manier en hoe vaak vinden deze afstemmingen plaats ?>>
-
-
-
-Team
-
-Stand up 1 x/W
-
-Sprint planning 1 x/Sprint
-
-Team building 1á2 x/W
-
-
-
-Docenten / stakeholder
-
-Contact moment 1á2 x/Sprint
-
-
-
-Klasgenoten
-
-Update/presentatie 1 x/ 1á2Sprints?
-
-Activiteiten en tijdplan
-
-Opdeling en aanpak van het project
-
-<<Geef hier de grove opdeling en aanpak van het project (of de onderdelen) weer. 
-
-Bij een scrum aanpak kun je denken aan lengte van sprints, opzet van je sprints, stand up, opzet van demo’s, retrospective, etc).. >>.
-
-Tijdplan
-
-<<Afhankelijk van je project methode zul je de fasering al in meer of minder detail kunnen uitwerken. Hieronder een mogelijke tabel die je hiervoor kunt gebruiken. 
-
+(Afhankelijk van je project methode zul je de fasering al in meer of minder detail kunnen uitwerken. Hieronder een mogelijke tabel die je hiervoor kunt gebruiken. 
 Merk op dat je bij een agile aanpak bij de meeste projecten nog een probleemanalyse/orientatie fase (of ‘sprint 0”) hebt, en ook een afronding/evaluatie fase. 
+Let ook op dat je voldoende tijd voor je scriptie of afronding van portfolio reserveert en hier op tijd mee start.)
 
-Let ook op dat je voldoende tijd voor je scriptie of afronding van portfolio reserveert en hier op tijd mee start.>>
-
-
-
-
-
-Sprints
-
-Effort 
-
-Start
-
-Gereed
+| Sprints | Effort | Start | Gereed |
+| --- | --- | --- | --- | 
+| 1| | | |
+| 2| | | |
+| 3| | | |
+| 4| | | |
+| 5| | | |
+| 6| | | |
 
 
+## Testaanpak en Configuratiemanagement
 
-Testaanpak en Configuratiemanagement
+**Testaanpak/strategie**
 
+(Hoe wordt het testen vorm gegeven. Wat is de aanpak? En waarom? Neem eventuele aanpak rondom (Code) reviews hierin ook op)
 
+**Testomgeving en benodigdheden**
 
-
-
-Testaanpak/strategie
-
-<<Hoe wordt het testen vorm gegeven. Wat is de aanpak? En waarom? Neem eventuele aanpak rondom (Code) reviews hierin ook op>>
-
-Testomgeving en benodigdheden
-
-<<Beschrijf hoe de testomgeving er uit ziet. Een plaatje geeft over het algemeen het beste overzicht.>>
+(Beschrijf hoe de testomgeving er uit ziet. Een plaatje geeft over het algemeen het beste overzicht.
+Beschrijf welke producten in de testomgeving opgenomen zijn, Dit kunnen producten zijn die het project oplevert maar ook externe producten die noodzakelijk zijn om de testaanpak uit te voeren (bijv. computers).)
 
 
 
-<<Beschrijf welke producten in de testomgeving opgenomen zijn, Dit kunnen producten zijn die het project oplevert maar ook externe producten die noodzakelijk zijn om de testaanpak uit te voeren (bijv. computers).>>
+**Configuratiemanagement**
 
+(Beschrijf hoe wordt het archief wordt ingericht. Je kunt hier gebruik maken van een schema.Beschrijf ook welke baselines en releases je voorziet.)
 
+## Financiën en Risico’s
 
-Configuratiemanagement
+**Kostenbudget** 
 
-<<Beschrijf hoe wordt het archief wordt ingericht. Je kunt hier gebruik maken van een schema.Beschrijf ook welke baselines en releases je voorziet.>>
+(Als specifieke kosten moeten worden gemaakt voor je project, geef deze dan aan. Denk aan extra hardware of software investeringen. Reguliere zaken zoals werkplek, je stage-vergoeding, etc hoeven niet meegenomen te worden.)
 
-Financiën en Risico’s
+**Risico’s en uitwijkactiviteiten**
 
-Kostenbudget 
+(Definieer risico’s. Wat heb je al in het plan opgenomen om het risico te beperken of te voorkomen. Welke keuze wordt gemaakt wanneer het risico onverhoopt toch optreedt.
+Denk aan reele risico’s die je project daadwerkelijk kunnen beinvloeden. Zo kan het risico zijn dat je bedrijfsbegeleider wegvalt, bijvoorbeeld door ziekte of doordat hij iets anders gaat doen. Is er dan een backup in het bedrijf ?)
 
-
-
-<< Als specifieke kosten moeten worden gemaakt voor je project, geef deze dan aan. Denk aan extra hardware of software investeringen. Reguliere zaken zoals werkplek, je stage-vergoeding, etc hoeven niet meegenomen te worden.
-
->>
-
-Risico’s en uitwijkactiviteiten
-
-<<Definieer risico’s. Wat heb je al in het plan opgenomen om het risico te beperken of te voorkomen. Welke keuze wordt gemaakt wanneer het risico onverhoopt toch optreedt.
-
-
-
-Denk aan reele risico’s die je project daadwerkelijk kunnen beinvloeden. Zo kan het risico zijn dat je bedrijfsbegeleider wegvalt, bijvoorbeeld door ziekte of doordat hij iets anders gaat doen. Is er dan een backup in het bedrijf ?
-
->>
-
-Risico
-
-Activiteiten ter voorkoming opgenomen in plan
-
-Uitwijkactiviteiten
+| Risico | Activiteiten ter voorkoming opgenomen in plan | Uitwijkactiviteiten |
+| --- | --- | ---| 
+| 1 | | |
+| 2 | | |
+| 3 | | |
