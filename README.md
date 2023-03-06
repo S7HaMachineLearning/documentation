@@ -93,27 +93,18 @@ Hoe kan er op basis van het gedrag van de home assistant gebruiker voorspellinge
 
 Hoe kan er op basis van gebruikersfeedback de machinelearning model getraind worden.
 
-Sub vragen:
+**Sub vragen:**
 
-Welke soort machine learning is het beste geschikt om aangestuurd te worden door externe userinput zodat deze zichtzelf kan corrigeren? 
+- Welke soort machine learning is het beste geschikt om aangestuurd te worden door externe userinput zodat deze zichzelf kan corrigeren? 
+- Hoe kan ik data uit de dataset gebruiken om het gedrag van de gebruiker van te stellen en voorspellingen te kunnen doen?
+- Hoe kan ik de keuzes die zijn gemaakt door het model vertalen naar een aantal vragen voor de gebruiker om op te acteren?
+- Hoe kan ik een interface voor de user verzorgen zodat deze op een makkelijke manier vragen kunnen stellen om het model te trainen?
 
-Hoe kan ik data uit de dataset gebruiken om het gedrag van de gebruiker van te stellen en voorspellingen te kunnen doen?
-
-Hoe kan ik de keuzes die zijn gemaakt door het model vertalen naar een aantal vragen voor de gebruiker om op te acteren?
-
-Hoe kan ik een interface voor de user verzorgen zodat deze op een makkelijke manier vragen kunnen stellen om het model te trainen?
-
-
-
-Potentiele onderzoeksmethode:
-
-Library: Literature study, Available product analysis.
-
-Lab: Data analytics.
-
-Showroom: Product review, Pitch.
-
-Workshop: Prototyping.
+**Potentiele onderzoeksmethode:**
+- Library: Literature study, Available product analysis.
+- Lab: Data analytics.
+- Showroom: Product review, Pitch.
+- Workshop: Prototyping.
 
 
 
