@@ -64,6 +64,8 @@ De werk mothode die word toegepast binnen dit project is Scrum/Agile. Dit word g
 
 Hoe kunnen we Home Assistant gebruikers ondersteunen met het automatiseren van hun smarthome door yaml automations te genereren.
 
+----
+
 ##### Onderzoeksvraag 1 HvG
 
 Hoe kan er op basis van het gedrag van de home assistant gebruiker voorspellingen gedaan worden ~~om automations te genereren~~. 
@@ -88,26 +90,48 @@ Hoe kan er op basis van het gedrag van de home assistant gebruiker voorspellinge
 - Showroom: Product review, Pitch.
 - Workshop: Prototyping.
 
-
+----
 ##### Onderzoeksvraag 2 BvD
 
 Hoe kan er op basis van gebruikersfeedback de machinelearning model getraind worden.
 
 **Sub vragen:**
 
-- Welke soort machine learning is het beste geschikt om aangestuurd te worden door externe userinput zodat deze zichzelf kan corrigeren? 
-- Hoe kan ik data uit de dataset gebruiken om het gedrag van de gebruiker van te stellen en voorspellingen te kunnen doen?
-- Hoe kan ik de keuzes die zijn gemaakt door het model vertalen naar een aantal vragen voor de gebruiker om op te acteren?
-- Hoe kan ik een interface voor de user verzorgen zodat deze op een makkelijke manier vragen kunnen stellen om het model te trainen?
+1. Welke soort machine learning is het beste geschikt om aangestuurd te worden door externe userinput zodat deze zichzelf kan corrigeren? 
+2. Hoe kan ik data uit de dataset gebruiken om het gedrag van de gebruiker van te stellen en voorspellingen te kunnen doen?
+3. Hoe kan ik de keuzes die zijn gemaakt door het model vertalen naar een aantal vragen voor de gebruiker om op te acteren?
+4. Hoe kan ik een interface voor de user verzorgen zodat deze op een makkelijke manier vragen kunnen stellen om het model te trainen?
 
 **Potentiele onderzoeksmethode:**
-- Library: Literature study, Available product analysis.
-- Lab: Data analytics.
-- Showroom: Product review, Pitch.
-- Workshop: Prototyping.
 
+| Vraag  | Strategie  |Methode| Onderbouwing |
+|----|:----|:----| :----|
+| 1  | Library | Literature study | 1A | 
+|    | Library | Available product analysis| 1B | 
+| 2  | Lab | Data analytics | 2A | 
+|    | Workshop | Prototyping | 2B |
+|    | Showroom | Product review | 2C |
+| 3  | Library | Literature study | 3A | 
+| 	 | Library | Available product analysis | 3B |
+| 4  | Library | Literature study | 4A |
+|    | Library | Available product analysis | 4B | 
+|    | Workshop | Prototyping | 4C | 
+|    | Showroom | Product review | 4D |
 
+Onderbouwingen:
+* 1A. Informatie opdoen over de bestaande soorten machine learning en welke het beste geschikt is voor dit project 
+* 1B. Zoeken naar soortgelijke projecten,hun hun aanpak is geweest en elke technieken zij hebben gebruikt. En proberen uit te vinden waar deze projecten tegen aan gelopen zijn.
+* 2A. Data verzamelen en analyseren, bekijken welk info hier beschikbaar is en hoe deze gebruikt kan worden.
+* 2B. Een POC maken om met de beschikbare data een model te trainen en te zien of dit mogelijk is.
+* 2C. Het gerealiseerde POC tonen en kijken of het voldoet aan de eisen.
+* 3A. Zoeken naar meer informatie over dit onderwerp.
+* 3B. Zoeken naar projecten die dit type machine learning gebruiken en hoe zij dit hebben opgelost.
+* 4a. Onderzoeken welke frameworks geschikt zijn om een interface te maken.
+* 4B. Zoeken naar projecten die gemaakt zijn om dit dit de faciliteren.
+* 4C. Een POC maken om te kijken of het mogelijk is om dit te realiseren.
+* 4D. Het gerealiseerde POC tonen en kijken of het voldoet aan de eisen.
 
+----
 ##### Onderzoeksvraag 3 BC
 
 Hoe kan er door middel van ML(machine learning) automations in Yaml-formaat genereren om deze in Home Assistant te kunnen gebruiken.
@@ -144,6 +168,8 @@ Workshop: Prototyping.
 [Onderzoeksmethode Machine learning]([Onderzoeksmethode Machine learning](https://ictresearchmethods.nl/Domain:_Machine_learning)) 
 
 ![[2023-03-06 08_52_08-Fontys - Projectplan - Template v2.0 - Word.png]]
+
+-----
 
 ### 1.6 Eindproducten
 
