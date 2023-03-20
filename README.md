@@ -54,13 +54,15 @@ De werk mothode die word toegepast binnen dit project is Scrum/Agile. Dit word g
 
 #### Hoofdvraag
 
-Hoe kunnen we Home Assistant gebruikers ondersteunen met het automatiseren van hun smarthome door yaml automations te genereren.
+Ontwikkel een Home assistant Add-on waarmee de gebruiker in home assistant 
+beschikking heeft tot automatisch gegeneerde automations op basis van zijn eigen gedrag, zodat deze gebruiker zelf niet meer automations hoeft te configureren
 
 ---
 
 ##### Onderzoeksvraag 1 HvG
 
-Hoe kan er op basis van het gedrag van de home assistant gebruiker voorspellingen gedaan worden.
+Ontwikkel een component waarmee gebruikersgedrag voorspeld kan worden
+met een beperkte dataset van 1 home assistant instance zodat dit als input gebruikt kan worden voor het genereren van automations.
 
 **Sub vragen:**
 
@@ -99,7 +101,8 @@ Hoe kan er op basis van het gedrag van de home assistant gebruiker voorspellinge
 
 ##### Onderzoeksvraag 2 BvD
 
-Hoe kan er op basis van gebruikersfeedback de machinelearning model getraind worden.
+Ontwikkel een full stack component waarmee de home assistant gebruiker feedback kan geven op de voorspellingen 
+zodat de sensoren gelabeld kunnen worden en dat er feedback gegeven kan worden op de gegenereerde automations.
 
 **Sub vragen:**
 
@@ -142,7 +145,7 @@ Onderbouwingen:
 
 ##### Onderzoeksvraag 3 BC
 
-Hoe kan een machine learning-gebaseerd systeem op basis van bestaande apparaten en automatiseringen, nieuwe automatiseringen genereren en voorstellen aan Home Assistant-gebruikers?
+Ontwikkel een component dat automations gegenereerd op basis van gedragsvoorspellingen en gebruikersfeedback
 
 **Sub vragen:**
 
