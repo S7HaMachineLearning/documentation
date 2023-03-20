@@ -1,6 +1,5 @@
-# Design challenge
 
-## Hoofdvraag
+# Hoofdvraag
 
 Ontwikkel een \<Home assistant Add-on> waarmee de \<gebruiker> in \<home assistant>
 \<beschikking heeft tot automatisch gegeneerde automations op basis van zijn eigen gedrag>  
@@ -20,7 +19,7 @@ Hoe kan er op basis van gebruikersfeedback de machinelearning model getraind wor
 Ontwikkel een \<full stack component> waarmee de \<gebruiker> in \<home assistant>
 \<feedback kan geven op de voorspellingen> zodat de \<dataset binnen home assistant opgeschoond kan worden>
 
-## Subvraag 2
+## Subvraag 3
 
 Hoe kan een machine learning-gebaseerd systeem op basis van bestaande apparaten en automatiseringen, nieuwe automatiseringen genereren en voorstellen aan Home Assistant-gebruikers?
 

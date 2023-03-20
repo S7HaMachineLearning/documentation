@@ -2,13 +2,10 @@
 
 ## Automated automations
 
-| Datum      | Versie | Status | Auteur                                                |
-| ---------- | ------ | ------ | ----------------------------------------------------- |
-| 20/02/2023 | 0.1    | Draft  | Bram van Deventer, Bastiaan Clement, Harm van Genesen |
-
 | Versie | Datum      | Auteur(s)    | Wijzigingen  | Status |
 | ------ | ---------- | ------------ | ------------ | ------ |
 | 0.1    | 20/02/2023 | BvD, BC, HvG | Eerste opzet | Draft  |
+| 0.2 | 20/03.2023 | BvD, BC, HvG | Alle hoofdstukken aangepast op basis van feedback| Draft | 
 
 | Verspreiding | Versie | Datum | Aan |
 | ------------ | ------ | ----- | --- |
