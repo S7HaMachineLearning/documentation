@@ -7,14 +7,14 @@ Ontwikkel een \<Home assistant Add-on> waarmee de \<gebruiker> in \<home assista
 
 ## Subvraag 1
 
-Hoe kan er op basis van het gedrag van de home assistant gebruiker voorspellingen gedaan worden.
+Hoe kan er op basis van het gedrag van de home assistant gebruiker voorspellingen gedaan worden?
 
 Ontwikkel een \<component binnen de home assistant add-on> waarmee de \<add-on> in \<home assistant>
 \<voorspellingen kan doen op basis van beperkte dataset> zodat er \<voorspellingen gedaan kunnen worden>
 
 ## Subvraag 2
 
-Hoe kan er op basis van gebruikersfeedback de machinelearning model getraind worden.
+Hoe kan er op basis van gebruikersfeedback de machinelearning model getraind worden?
 
 Ontwikkel een \<full stack component> waarmee de \<gebruiker> in \<home assistant>
 \<feedback kan geven op de voorspellingen> zodat de \<dataset binnen home assistant opgeschoond kan worden>
