@@ -68,21 +68,33 @@ Hoe kunnen we Home Assistant gebruikers ondersteunen met het automatiseren van h
 
 ##### Onderzoeksvraag 1 HvG
 
-Hoe kan er op basis van het gedrag van de home assistant gebruiker voorspellingen gedaan worden ~~om automations te genereren~~. 
+Hoe kan er op basis van het gedrag van de home assistant gebruiker voorspellingen gedaan worden. 
 
 **Sub vragen:**
 
-- Welke soortgelijke oplossingen zijn er al op de markt en wat voor technieken worden daarvoor gebruikt om dit probleem op te lossen? **
-- Welke AI technologie is het meest geschikt voor het lezen en automatiseren van het gebruikers patroon (Machine Learning, Deep Learning, Robotic Process Automation). **
-- Hoe functioneren de verschillende AI technologieën binnen Home assistant? **
+1. Welke AI technologie is toepasbaar voor het voorspellen van gebruikersgedrag (Machine Learning, Deep Learning, Robotic Process Automation). **
+2. Hoe functioneren de verschillende AI technologieën binnen Home assistant? **
 	- Wat is de minimale dataset grootte?
 	- Hoe kan het omgaan met verschillende soorten databases? 
 	- Hoe gaat het om met de verschillende programmeer/config talen binnen Home Assistant (YAML, Python, etc.).
-- Hoe kan de data uit Home Assistant gebruikt worden voor de gekozen techniek. 
-- Welk platform, framework, library binnen te gekozen techniek is het meest geschikt voor het voorspellen van gedrag. 
-- ~~Welk platform, framework, library binnen te gekozen techniek is het meest geschikt voor het genereren van automations~~. 
+3. Hoe kan de data uit Home Assistant gebruikt worden voor de gekozen techniek. 
+4. Welk platform, framework, library binnen te gekozen techniek is het meest geschikt voor het voorspellen van gedrag. 
 
 ** Kan invloed hebben op onderstaande onderzoeksvragen. 
+
+| Vraag  | Strategie  |Methode| Onderbouwing |
+|----|:----|:----| :----|
+| 1  | Library | Literature study | 1A | 
+|    | Library | Available product analysis| 1B | 
+| 2  | Lab | Data analytics | 2A | 
+|    | Workshop | Prototyping | 2B |
+|    | Showroom | Product review | 2C |
+| 3  | Library | Literature study | 3A | 
+| 	 | Library | Available product analysis | 3B |
+| 4  | Library | Literature study | 4A |
+|    | Library | Available product analysis | 4B | 
+|    | Workshop | Prototyping | 4C | 
+|    | Showroom | Product review | 4D |
 
 **Potentiele onderzoeksmethode:
 - Library: Community Research, Available product analysis.
