@@ -145,7 +145,8 @@ Onderbouwingen:
 
 ##### Onderzoeksvraag 3 BC
 
-Ontwikkel een component dat automations gegenereerd op basis van gedragsvoorspellingen en gebruikersfeedback
+~~Ontwikkel een component dat automations gegenereerd op basis van gedragsvoorspellingen en gebruikersfeedback~~
+
 
 **Sub vragen:**
 
