@@ -67,7 +67,7 @@ met een beperkte dataset van 1 home assistant instance zodat dit als input gebru
 **Sub vragen:**
 
 1. Welke AI technologie is toepasbaar voor het voorspellen van gebruikersgedrag (Machine Learning, Deep Learning, Robotic Process Automation). \*\*
-2. Hoe functioneren de verschillende AI technologieën binnen Home assistant? \*\*
+2. Wat zijn de voor en nadelen van de verschillende AI technologieën binnen Home assistant? \*\*
    - Wat is de minimale dataset grootte?
    - Hoe kan het omgaan met verschillende soorten databases?
    - Hoe gaat het om met de verschillende programmeer/config talen binnen Home Assistant (YAML, Python, etc.).
@@ -76,26 +76,19 @@ met een beperkte dataset van 1 home assistant instance zodat dit als input gebru
 
 \*\* Kan invloed hebben op onderstaande onderzoeksvragen.
 
-| Vraag | Strategie | Methode                    | Onderbouwing |
-| ----- | :-------- | :------------------------- | :----------- |
-| 1     | Library   | Literature study           | 1A           |
-|       | Library   | Available product analysis | 1B           |
-| 2     | Lab       | Data analytics             | 2A           |
-|       | Workshop  | Prototyping                | 2B           |
-|       | Showroom  | Product review             | 2C           |
-| 3     | Library   | Literature study           | 3A           |
-|       | Library   | Available product analysis | 3B           |
-| 4     | Library   | Literature study           | 4A           |
-|       | Library   | Available product analysis | 4B           |
-|       | Workshop  | Prototyping                | 4C           |
-|       | Showroom  | Product review             | 4D           |
+| Vraag | Strategie | Methode                     | Onderbouwing                                                                                                                                                                                                      |
+| ----- | --------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Library   | Literature study            | Om er achter te koment welke technologie gebruikt kan worden voor het voorspellen van gebruukersgedrag is het goed om uit te zoeken welke technologieën er hier voor op de markt zijn.                            |
+|       | Library   | Available product analysis  | Er kunnen verschillende oplossingen zijn op de markt die het zelfde probleem proberen op te lossen. Hier wil ik onderzoek naar doen om te weten wat de voor en nadelen hiervan zijn.                              |
+|       | Library   | Best good and bad practices | Door opzoek te gaan naar toepassingen van de technologieën wil ik uitzoeken in welke usecases de technologie goed werkt.                                                                                          |
+| 2     | Lab       | Data analytics              | Door een data analyse uit te voeren en dit te vergelijken met hoe de data gebruikt word binnen de technologie (Labeling, data grootte) wil ik teweten komen of de technologie toe te passen is voor de HA dataset |
+|       | Workshop  | Prototyping                 | Door het maken van een PoC kan ik aantonen hoe de technologie in de praktijk werkt binnen HA                                                                                                                      |
+|       | Showroom  | Product review              | Door het reviewen van de PoC kan ik feedback krijgen om zo beter een keuze te maken welke technologie voor ons project bruikbaar zou zijn.                                                                        |
+| 3     | Lab       | Usability testing           | Door de PoC die al is gemaakt goed door te testen en fouten op te sporen kan er mogelijk verbetering doorgevoerd worden in het trainen van het model                                                              |
+|       | Lab       | Data analytics              | Door de data te analyserenWeet ik beter hoe ik de data kan gebruiken binnen de gekozen technologie                                                                                                                |
+| 4     | Library   | Available product analysis  | Om er achter te komen welk model bestaande producten op de markt gebruiken                                                                                                                                        |
+|       | Workshop  | Literature study            | Om er achter te komen welke framewoks / models gebruikt worden voor gedragsvoorspelling                                                                                                                           | 
 
-\*\*Potentiele onderzoeksmethode:
-
-- Library: Community Research, Available product analysis.
-- Lab: Data analytics, Usability testing.
-- Showroom: Product review, Pitch.
-- Workshop: Prototyping.
 
 ---
 
