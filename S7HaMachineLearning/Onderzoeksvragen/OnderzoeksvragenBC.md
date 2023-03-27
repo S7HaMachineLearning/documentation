@@ -17,12 +17,14 @@ Is de beschikbare data binnen Home Assistant voldoende en geschikt om machine le
 
 Methode: Data-analyse en -evaluatie - (Exploratory data analysis (ML))
 Reden: Op basis van data-analyse van de omvang en diversiteit kan er vastgesteld worden of het voldoende is om machine learning-modellen te trainen.
-
+<br>
+<br>
 Welke machine learning technieken zijn geschikt voor het genereren van automations binnen Home Assistant?
 
 Methode: Literatuuronderzoek en vergelijkende analyse
 Reden: Door literatuuronderzoek en vergelijkende analyse van bestaande machine learning-technieken, kan er bepaald worden welke technieken het meest geschikt zijn voor het genereren van automatiseringen binnen Home Assistant.
-
+<br>
+<br>
 Is het mogelijk om automations te generen op basis van aangegeven locatie binnen Home assistant?
 
 Methode: Experimenteel onderzoek (proof-of-concept)
