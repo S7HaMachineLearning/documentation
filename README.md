@@ -29,6 +29,49 @@ Het product wat er word gemaakt in dit project is specifiek bedoeld voor het Hom
 
 Het project is opensource. Iedere Home Assistan gebruiker kan gebruik maken van de oplossing die word ontwikkeld. Bijdragen leveren staat voor iedereen open. Om een bijdragen te leveren doe je een pull request. Wanneer je je code pusht zal er een QA worden gedaan door Bastiaan, Bram en Harm. Wanneer de push word goedgekeurd dan word de code gemerged. Voordat wij het project open zetten voor bijdragen moet er tenminste een MVP staan. De MVP is geen leeruitkomst voor dit semester.
 
+#### Aanleiding
+
+automations zijn lastig te schrijven, 
+komen makkelijk fouten in, 
+zijn snel niet betrouwbaar
+Is tijdrovend 
+Er is meer potentie dan dat de meeste gebruiker voor ogen heeft. 
+
+#### End-users
+
+De Home assistant gebruiker die: 
+ - Automations wil hebben maar niet weet hoe
+ - Automations wil maar geen tijd heeft
+ - Geen zin om uit tezoeken wat hij allemaal kan automatiseren 
+ - De beginnende gebruiker
+ - Geen zin/tijd heeft om automations te onderhouden. 
+
+#### Use cases 
+
+#todo uitwerken van deze use cases. 
+- Trainingsinterface - Bram 
+- automation generator - Bastiaan
+- data privacy - Harm
+
+#### Requirements 
+
+##### Functional 
+
+- Een automation die word gegenereed word aangeboden via een UI zodat ik (de gebruiker). kan kiezen of deze word geïmplementeerd. 
+- Een automation die word gegenereed is gebaseerd om mijn (eindgebruiker) gedrag. 
+- Ik (eindgebruiker) wil dat al mijn data prive blijft. 
+- Ik (eindgebruiker) wil de gegenereerd automations kunnen aanpassen. 
+
+
+##### Operational
+- Ik (de ontwikkelaar) wil een trainingswizard voor de gebruiker beschikbaar maken zodat de gebruiker het model kan trainen en aan de hand daarvan er betere automations gegenereerd kunnen worden. 
+- 
+
+##### Technical & Transitional
+
+De Technical en transitional requirements zijn nog niet van toepassing. De reden hiervoor is dat dit project draait om het onderzoeken van de Technical requirements. We hebben verschillende onderzoeksvragen die gaan bepalen welke technieken nodig zijn om een goed functionerende applicatie te ontwikkelen. Zo kunnen we vrevolgens een duidelijk beeld scheppen hoe we de implementatie stap voor stap kunnen uitvoeren. 
+
+
 ### 1.2 Doel van het project
 
 #### Doel
