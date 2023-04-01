@@ -47,11 +47,29 @@ De Home assistant gebruiker die:
  - Geen zin/tijd heeft om automations te onderhouden. 
 
 #### Use cases 
+##### Trainingsinterface - Bram 
 
-#todo uitwerken van deze use cases. 
-- Trainingsinterface - Bram 
-- automation generator - Bastiaan
-- data privacy - Harm
+||| 
+| :--- | :--- |
+| Use case | 1. Sensor type toekennen |
+| Acteur | De gebruiker |
+| Standaard flow | Bij het eerste keer gebruiken van de applicatie moet de gebruiker een aantal vragen beantwoorden. Hij krijgt een lijst van zijn gekoppelde sensoren te zien. De gebruiker moet aangeven welk type sensor het is.|
+| Alternatief flow 1. | De gebruiker heeft al een training gedaan en wil deze aanpassen. |
+| Alternatief flow 2. | De gebruiker kent geen type toe aan sensoren |
+
+||| 
+| :--- | :--- |
+| Use case| 2. Gegeneerde automation keuren |
+| Acteur| De gebruiker |
+| Standaard flow | De gebruiker krijgt een scherm te zien met hierop een automatisch gegeneerde automation, na het controleren hiervan kiest de gebruiker om deze toe te voegen aan zijn Home Assistant instance. Na de keuzen word deze automation ook daadwerkelijk toegevoegd en word het systeem herladen om de nieuwe automation actief te maken |
+| Alternatief flow 1. | De gegeneerde automation klopt, maar de gebruiker kiest er voor om hem niet toe te voegen. |
+| Alternatief flow 2. | De gegeneerde automation klopt NIET, de gebruiker geeft aan dat deze incorrect is en voegt hem niet toe. |
+
+#### automation generator - Bastiaan
+# todo
+
+#### data privacy - Harm
+# todo
 
 #### Requirements 
 
