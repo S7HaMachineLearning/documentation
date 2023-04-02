@@ -69,7 +69,11 @@ De Home assistant gebruiker die:
 # todo
 
 #### data privacy - Harm
-# todo
+| Use case          | Data Privacy                                                                                                                                                                                                                                                                                                                      |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Acteur            | Home Assistan gebruiker, data base                                                                                                                                                                                                                                                                                                |
+| Standaard flow    | De data die word gegenereerd door de gebruiker zijn handelingen blijft locaal op zijn instance staan. Deze blijft daardoor privay. Hierdoor kan een machinelearning model alleen met een beperkte dataset getraint worden om zo beter gebruikersgedrag te voorspellen                                                             |
+| Alternatiefe flow | De data die word gegenereerd door de gebruiker zijn handelingen word opgeslagen in de cloud zonder dat de gebruiker er aan gekopeld kan worden. Hierdoor kan niemand de gebruiker zijn data tracken. Hierdoor kan een machine learning model met een grotere data set getraint worden om zo beter gebruikersgedrag te voorspellen | 
 
 #### Requirements 
 
