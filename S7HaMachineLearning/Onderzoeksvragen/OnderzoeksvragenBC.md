@@ -29,3 +29,30 @@ Is het mogelijk om automations te generen op basis van aangegeven locatie binnen
 
 Methode: Experimenteel onderzoek (proof-of-concept)
 Reden: Door het bouwen van een proof-of-concept kan er geprobeerd worden of het genereren van automations op basis van locatiegegevens en apparaten werkt.
+
+<br>
+<br>
+
+# Functionals en nonfunctionals
+
+## Functionals
+
+1. De ML(Machine Learning) moet in staat zijn apparaten en automatiseringen in HA(Home Assistant) te analyseren
+2. De ML moet gegevens uit HA kunnen halen, zoals locatiegegevens, automations en de status van apparaten
+3. De ML moet zichzelf kunnen trainen op basis van de gegevens in HA
+4. De ML moet in staat zijn om werkende automations te genereren en toe te passen in HA
+5. De ML is compatibel met de laatste versie van HA
+6. De ML moet bij het genereren en toepassen van een automation geen bestaande automations overschrijven
+7. De ML moet bij het aanmaken van een automation en het ingeven van een naam altijd beginnen met 'ML -'
+
+<br>
+
+## Non-functionals
+
+1. Voor het genereren van een automation moet dit niet langer duren van 10 seconden
+2. De interface moet eenvoudig zijn, het bevat slechts de knoppen: genereer, wijzig, delete, ok
+3. De ML moet overweg kunnen met grote datasets en een groot aantal apparaten en automatiseringen, 50 of meer.
+4. De ML houdt de gegevens lokaal en worden niet verzonden naar een Cloud oplossing
+5. De code van de ML moet makkelijk uitbreidbaar zijn.
+6. Er moet een test en validatie set aanwezig zijn om de ML goed te kunnen testen
+7. De ML moet voorzien van documentatie en een gebruikershandleiding zodat andere gebruikers de ML kunnen gebruiken.
