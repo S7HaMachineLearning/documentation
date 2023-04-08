@@ -205,6 +205,24 @@ Onderbouwingen:
 - 4C. Een POC maken om te kijken of het mogelijk is om dit te realiseren.
 - 4D. Het gerealiseerde POC tonen en kijken of het voldoet aan de eisen.
 
+###### Functionals en nonfunctionals
+
+**Functionals**
+1. Per gekoppelde sensors binnen Home Assistant een type sensor en locatie kunnen aangeven.
+2. Gegenereerde automations kunnen beoordelen en feedback geven op de voorspellingen.
+
+**Non-functionals**
+1. De addon moet snel genoeg opstarten zodat de gebruiker niet te lang hoeft te wachten nat het herstarten van Home Assistant.
+2. De addon moet voldoen aan de richtlijnen voor toegankelijkheid, zodat het voor mensen met een beperking gemakkelijk is om te gebruiken.
+3. De addon moet veilig zijn voor gebruikersgegevens en bescherming bieden tegen aanvallen van buitenaf.
+4. De addon moet consistent presteren en weinig of geen fouten produceren.
+
+**Validatie**
+1. Laadtijd van de addon meten met tools als Lighthouse en WebPageTest.
+2. Dat de addon voldoet aan de Web Content Accessibility Guidelines (WCAG). en te testen met bijvoorbeeld accessibility Insights-tool van Microsoft.
+3. Penetratietesten en met tools zoals OWASP ZAP.
+4. Unit en e2e testing.
+
 ---
 
 ##### Onderzoeksvraag 3 BC
