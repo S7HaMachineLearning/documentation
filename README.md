@@ -31,6 +31,8 @@ Het project is opensource. Iedere Home Assistan gebruiker kan gebruik maken van 
 
 #### Aanleiding
 
+
+
 automations zijn lastig te schrijven, 
 komen makkelijk fouten in, 
 zijn snel niet betrouwbaar
@@ -65,15 +67,15 @@ De Home assistant gebruiker die:
 | Alternatief flow 1. | De gegeneerde automation klopt, maar de gebruiker kiest er voor om hem niet toe te voegen.                                                                                                                                                                                                                                         |
 | Alternatief flow 2. | De gegeneerde automation klopt NIET, de gebruiker geeft aan dat deze incorrect is en voegt hem niet toe.                                                                                                                                                                                                                           |
 
-#### automation generator - Bastiaan
-# todo
+##### automation generator - Bastiaan
+#todo
 
-#### data privacy - Harm
-| Use case          | Data Privacy                                                                                                                                                                                                                                                                                                                      |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Acteur            | Home Assistan gebruiker, data base                                                                                                                                                                                                                                                                                                |
-| Standaard flow    | De data die word gegenereerd door de gebruiker zijn handelingen blijft locaal op zijn instance staan. Deze blijft daardoor privay. Hierdoor kan een machinelearning model alleen met een beperkte dataset getraint worden om zo beter gebruikersgedrag te voorspellen                                                             |
-| Alternatiefe flow | De data die word gegenereerd door de gebruiker zijn handelingen word opgeslagen in de cloud zonder dat de gebruiker er aan gekopeld kan worden. Hierdoor kan niemand de gebruiker zijn data tracken. Hierdoor kan een machine learning model met een grotere data set getraint worden om zo beter gebruikersgedrag te voorspellen | 
+##### data privacy - Harm
+| Use case          | Data Privacy                                                                                                                                                                                                                                                                                                                                  |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Acteur            | Home Assistan gebruiker, data base                                                                                                                                                                                                                                                                                                            |
+| Standaard flow    | De data die word gegenereerd door de gebruiker zijn handelingen blijft locaal op zijn instance staan. Deze blijft daardoor privay. Hierdoor kan een machinelearning model alleen met een beperkte dataset getraint worden om zo beter gebruikersgedrag te voorspellen                                                                         |
+| Alternatiefe flow | De data die word gegenereerd door de gebruiker zijn handelingen word opgeslagen in de cloud zonder dat de gebruiker er aan gekopeld kan worden. Hierdoor kan niemand de gebruiker zijn data tracken. Met deze data kan een machine learning model met een grotere data set getraint worden om zo beter gebruikersgedrag te kunnen voorspellen | 
 
 | Use case          | Juister voorspelling gebruikersgedrag                                                                  |
 | ----------------- | ------------------------------------------------------------------------------------------------------ |

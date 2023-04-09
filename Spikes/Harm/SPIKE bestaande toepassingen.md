@@ -13,7 +13,7 @@ In deze spike ga ik opzoek naar bestaande oplossingen voor zowel Home Assistant 
 
 # The silly home
 
-[The silly home](https://community.home-assistant.io/t/introducing-thesillyhome-a-homeassistant-machine-learning-ai-addon/421351) is een addon voor home assistant die machine learning toepast om statusen van entitys te wijzigen op basis van voorspellingen. De voorspellingen worden gedaan op basis van hystorische data. De data word gegenereerd wanneer een gebruiker handmatig de status van een entity wijzigd. Dit kan gedaan worden door bijvoorbeeld een lamp aan/uit te zetten.  
+[The silly home](https://community.home-assistant.io/t/introducing-thesillyhome-a-homeassistant-machine-learning-ai-addon/421351) is een addon voor home assistant die machine learning toepast om statusen van entitys te wijzigen op basis van voorspellingen. De voorspellingen worden gedaan op basis van hystorische data. De data word gegenereerd wanneer een gebruiker handmatig de status van een entity wijzigd. Dit kan gedaan worden door bijvoorbeeld een lamp aan/uit te zetten of de thermosthaat hoger of lager te zetten.  
 
 # Bronen
 
