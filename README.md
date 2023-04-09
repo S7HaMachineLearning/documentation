@@ -21,25 +21,21 @@
 
 ### 1.1 Context
 
-#### Platform
+#### 1.1.1 Platform
 
 Het product wat er word gemaakt in dit project is specifiek bedoeld voor het Home Assistant platform. Home Assistant is een gratis opensource platform wat iedereen op een eigen computer/server thuis kan draaien waarmee zij smarthome producten kunnen koppelen en aansturen. Ook is het mogelijk of “automations” te schrijven binnen het platform om zo automatisch smarthome producten aan te sturen. Het is mogelijk om voor Home Assistant Add-ons te maken die andere gebruikers kunnen installeren op hun eigen instance.
 
-#### Organisatie
+#### 1.1.2. Organisatie
 
 Het project is opensource. Iedere Home Assistan gebruiker kan gebruik maken van de oplossing die word ontwikkeld. Bijdragen leveren staat voor iedereen open. Om een bijdragen te leveren doe je een pull request. Wanneer je je code pusht zal er een QA worden gedaan door Bastiaan, Bram en Harm. Wanneer de push word goedgekeurd dan word de code gemerged. Voordat wij het project open zetten voor bijdragen moet er tenminste een MVP staan. De MVP is geen leeruitkomst voor dit semester.
 
-#### Aanleiding
+#### 1.1.3. Aanleiding
 
+De aanleiding om dit project te starten is dat het soms erg ingewikkeld kan worden om een goede automation te schrijven binnen Home Assistant. De leercurve hier in is vrij stijl en om je instance overzichtelijk en onderhoudbaar te houden zijn er een aantal best practices nodig. Dit kan voor een beginnende Home Assistant gebruiker overkomen als te techniesch, tijd rovend. Ook kan het uiten tot onbetrouwbare automations waardoor de fuctionaliteid buiten beschouwing zal worden gelaten door de gebruiker of in het ergste geval kiest de gebruiker voor een ander platform. 
 
+#### 1.1.4. End-users
 
-automations zijn lastig te schrijven, 
-komen makkelijk fouten in, 
-zijn snel niet betrouwbaar
-Is tijdrovend 
-Er is meer potentie dan dat de meeste gebruiker voor ogen heeft. 
-
-#### End-users
+#watWasDitOokalweer
 
 De Home assistant gebruiker die: 
  - Automations wil hebben maar niet weet hoe
@@ -48,7 +44,7 @@ De Home assistant gebruiker die:
  - De beginnende gebruiker
  - Geen zin/tijd heeft om automations te onderhouden. 
 
-#### Use cases 
+#### 1.1.5. Use cases 
 ##### Trainingsinterface - Bram 
 
 |                     |                                                                                                                                                                                                                  |
@@ -83,15 +79,14 @@ De Home assistant gebruiker die:
 | Standaard flow    | Het model doet voorspellingen op basis van data die uitsluitend gegenereerd is door de gebruiker zelf. | 
 | Alternatiefe flow | Het model doet voorspellingen op basis van automatiosn en scripts binnen het platform.                 |
 
-#### Requirements 
+#### 1.1.6. Requirements 
 
 ##### Functional 
 
-- Een automation die word gegenereed word aangeboden via een UI zodat ik (de gebruiker). kan kiezen of deze word geïmplementeerd. 
-- Een automation die word gegenereed is gebaseerd om mijn (eindgebruiker) gedrag. 
+- Een automation die wordt gegenereed word aangeboden via een UI zodat ik (de gebruiker). kan kiezen of deze word geïmplementeerd. 
+- Een automation die word gegenereed is gebaseerd op mijn (eindgebruiker) gedrag. 
 - Ik (eindgebruiker) wil dat al mijn data prive blijft. 
 - Ik (eindgebruiker) wil de gegenereerd automations kunnen aanpassen. 
-
 
 ##### Operational
 - Ik (de ontwikkelaar) wil een trainingswizard voor de gebruiker beschikbaar maken zodat de gebruiker het model kan trainen en aan de hand daarvan er betere automations gegenereerd kunnen worden. 
@@ -103,8 +98,6 @@ De Technical en transitional requirements zijn nog niet van toepassing. De reden
 
 
 ### 1.2 Doel van het project
-
-#### Doel
 
 Het doel van dit project is om op basis van gebruikers gedrag en feedback automations te genereren. De eerste intentie is om dit project te gebruiken om meer te leren over Machine Learning. Mocht het het zo zijn dat het in de loop van het semester duidelijk word dat dit niet haalbaar is dan zullen we tijdig van strategie veranderen.
 
@@ -317,14 +310,12 @@ Er is een [GitHub]([S7HaMachineLearning (github.com)](https://github.com/S7HaMac
 
 ### 5.1 Kostenbudget
 
-**Niet van toepassing voor dit project**
+Dit project neemt geen kosten met zich mee.
 
 ### 5.2 Risico’s en uitwijkactiviteiten
 
-**Niet van toepassing voor dit project**
-
-| Risico | Activiteiten ter voorkoming opgenomen in plan | Uitwijkactiviteiten |
-| ------ | --------------------------------------------- | ------------------- |
-| 1      |                                               |                     |
-| 2      |                                               |                     |
-| 3      |                                               |                     |
+| Risico | Activiteiten ter voorkoming opgenomen in plan          | Uitwijkactiviteiten                                                                                                                                   |
+| ------ | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1      | Uitval van een collega                                 | Iedereen gaat door met zijn eigen taken. Wanneer er afhankelijkheden zijn word dit besproken door de aanwezige collegas en wanneer mogelijk opgepakt. |
+| 2      | De gewenste techniek is niet geschikt voor dit project | Er word gekeken naar andere technieken                                                                                                                | 
+| 3      |                                                        |                                                                                                                                                       |
