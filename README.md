@@ -236,7 +236,7 @@ zie [Requirements document](/S7HaMachineLearning/Onderzoeken/Bram/4.%20Requireme
 
 ##### Onderzoeksvraag 3 BC
 
-~~Ontwikkel een component dat automations gegenereerd op basis van gedragsvoorspellingen en gebruikersfeedback~~
+Hoe kan machine learning worden gebruikt om Home Assistant automations te verbeteren op basis van gebruikersgedrag?
 
 **Sub vragen:**
 
