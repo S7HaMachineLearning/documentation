@@ -33,16 +33,13 @@ Het project is opensource. Iedere Home Assistan gebruiker kan gebruik maken van 
 
 De aanleiding om dit project te starten is dat het soms erg ingewikkeld kan worden om een goede automation te schrijven binnen Home Assistant. De leercurve hier in is vrij stijl en om je instance overzichtelijk en onderhoudbaar te houden zijn er een aantal best practices nodig. Dit kan voor een beginnende Home Assistant gebruiker overkomen als te techniesch, tijd rovend. Ook kan het uiten tot onbetrouwbare automations waardoor de fuctionaliteid buiten beschouwing zal worden gelaten door de gebruiker of in het ergste geval kiest de gebruiker voor een ander platform.
 
-#### 1.1.4. End-users
-
-#watWasDitOokalweer
+#### 1.1.4. Doelgroep
 
 De Home assistant gebruiker die:
-
-- Automations wil hebben maar niet weet hoe
-- Automations wil maar geen tijd heeft
-- Geen zin om uit tezoeken wat hij allemaal kan automatiseren
-- De beginnende gebruiker
+- Automations wil hebben maar niet weet hoe die deze moet maken/schrijven.
+- Automations wil maar geen tijd heeft.
+- Geen zin om uit tezoeken wat hij allemaal kan automatiseren.
+- Pas start met Home Asistant
 - Geen zin/tijd heeft om automations te onderhouden.
 
 #### 1.1.5. Use cases
@@ -57,18 +54,16 @@ De Home assistant gebruiker die:
 | Alternatief flow 1. | De gebruiker heeft al een training gedaan en wil deze aanpassen.                                                                                                                                                 |
 | Alternatief flow 2. | De gebruiker kent geen type toe aan sensoren                                                                                                                                                                     |
 
-|                     |                                                                                                                                                                                                                                                                                                                                    |
-| :------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Use case            | 2. Gegeneerde automation keuren                                                                                                                                                                                                                                                                                                    |
-| Acteur              | De gebruiker                                                                                                                                                                                                                                                                                                                       |
-| Standaard flow      | De gebruiker krijgt een scherm te zien met hierop een automatisch gegeneerde automation, na het controleren hiervan kiest de gebruiker om deze toe te voegen aan zijn Home Assistant instance. Na de keuzen word deze automation ook daadwerkelijk toegevoegd en word het systeem herladen om de nieuwe automation actief te maken |
-| Alternatief flow 1. | De gegeneerde automation klopt, maar de gebruiker kiest er voor om hem niet toe te voegen.                                                                                                                                                                                                                                         |
-| Alternatief flow 2. | De gegeneerde automation klopt NIET, de gebruiker geeft aan dat deze incorrect is en voegt hem niet toe.                                                                                                                                                                                                                           |
-
+|                     |                                                                                                                                                                                                                                                                                                                                       |
+|:------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Use case            | 2. Gegenereerde automation keuren                                                                                                                                                                                                                                                                                                     |
+| Acteur              | De gebruiker                                                                                                                                                                                                                                                                                                                          |
+| Standaard flow      | De gebruiker krijgt een scherm te zien met hierop een automatisch gegenereerde automation, na het controleren hiervan kiest de gebruiker om deze toe te voegen aan zijn Home Assistant instance. Na de keuzen word deze automation ook daadwerkelijk toegevoegd en wordt het systeem herladen om de nieuwe automation actief te maken | 
+| Alternatief flow 1. | De gegenereerde automation klopt, maar de gebruiker kiest er voor om hem niet toe te voegen.                                                                                                                                                                                                                                          |
+| Alternatief flow 2. | De gegenereerde automation klopt NIET, de gebruiker geeft aan dat deze incorrect is en voegt hem niet toe.                                                                                                                                                                                                                            |
 <br>
 <br>
-
-##### automation generator - Bastiaan
+##### Automation generator - Bastiaan
 
 | Use case          | Gebruikersgedrag analyseren en automations voorstellen                                                                                                                                                                                                                                                                                                                   |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -85,28 +80,21 @@ De Home assistant gebruiker die:
 | Alternatiefe flow | 1. Systeem kan niet voldoende locatiegegevens verzamelen. 2. Systeem vraagt de gebruiker om meer locatiegegevens te verstrekken om de analyse te verbeteren. 3. Gebruiker verstrekt aanvullende locatiegegevens. 4. Systeem hervat de standaard flow vanaf stap 2.                                                                                           |
 
 <br>
-
-| Use case       | Machine learning model selectie en optimalisatie                                                                                                                                                                                                                                                                                                                                                                             |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Acteur         | Systeem, Onderzoeker                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Standaard flow | 1. Onderzoeker identificeert geschikte machine learning technieken voor het genereren van automations. 2. Systeem traint verschillende machine learning modellen met behulp van verzamelde gegevens. 3. Systeem evalueert en vergelijkt de prestaties van de getrainde modellen. 4. Systeem selecteert het beste model en optimaliseert het voor gebruik. 5. Systeem implementeert het geoptimaliseerde model voor het gener |
-
-<br>
 <br>
 
 ##### data privacy - Harm
 
-| Use case          | Data Privacy                                                                                                                                                                                                                                                                                                                                  |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Acteur            | Home Assistan gebruiker, data base                                                                                                                                                                                                                                                                                                            |
-| Standaard flow    | De data die word gegenereerd door de gebruiker zijn handelingen blijft locaal op zijn instance staan. Deze blijft daardoor privay. Hierdoor kan een machinelearning model alleen met een beperkte dataset getraint worden om zo beter gebruikersgedrag te voorspellen                                                                         |
-| Alternatiefe flow | De data die word gegenereerd door de gebruiker zijn handelingen word opgeslagen in de cloud zonder dat de gebruiker er aan gekopeld kan worden. Hierdoor kan niemand de gebruiker zijn data tracken. Met deze data kan een machine learning model met een grotere data set getraint worden om zo beter gebruikersgedrag te kunnen voorspellen |
+| Use case          | Data Privacy                                                                                                                                                                                                                                                                                                                                   |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Acteur            | Home Assistant gebruiker, database                                                                                                                                                                                                                                                                                                             |
+| Standaard flow    | De data die wordt gegenereerd door de gebruiker zijn handelingen blijft locaal op zijn instance staan. Deze blijft daardoor privay. Hierdoor kan een machinelearning model alleen met een beperkte dataset getraint worden om zo beter gebruikersgedrag te voorspellen                                                                         |
+| Alternatiefe flow | De data die wordt gegenereerd door de gebruiker zijn handelingen word opgeslagen in de cloud zonder dat de gebruiker er aan gekopeld kan worden. Hierdoor kan niemand de gebruiker zijn data tracken. Met deze data kan een machine learning model met een grotere data set getraint worden om zo beter gebruikersgedrag te kunnen voorspellen | 
 
 | Use case          | Juister voorspelling gebruikersgedrag                                                                  |
 | ----------------- | ------------------------------------------------------------------------------------------------------ |
 | Acteur            | Home Assistan gebruiker, data base                                                                     |
 | Standaard flow    | Het model doet voorspellingen op basis van data die uitsluitend gegenereerd is door de gebruiker zelf. |
-| Alternatiefe flow | Het model doet voorspellingen op basis van automatiosn en scripts binnen het platform.                 |
+| Alternatiefe flow | Het model doet voorspellingen op basis van automations en scripts binnen het platform.                 |
 
 #### 1.1.6. Requirements
 
@@ -120,7 +108,6 @@ De Home assistant gebruiker die:
 ##### Operational
 
 - Ik (de ontwikkelaar) wil een trainingswizard voor de gebruiker beschikbaar maken zodat de gebruiker het model kan trainen en aan de hand daarvan er betere automations gegenereerd kunnen worden.
--
 
 ##### Technical & Transitional
 
@@ -132,10 +119,10 @@ Het doel van dit project is om op basis van gebruikers gedrag en feedback automa
 
 ### 1.3 Begrenzing en Randvoorwaarden
 
-| Tot het project behoort:              | Tot het project behoort niet:                                             |
-| ------------------------------------- | ------------------------------------------------------------------------- |
-| Een ML model ontwikkelen per product. | Een volledig product beschikbaar maken voor de Home Assistant communitie. |
-|                                       | Een user interface wanneer dit niet noodzakelijk is                       |
+| Tot het project behoort:                     | Tot het project behoort niet:                                             |
+| -------------------------------------------- | ------------------------------------------------------------------------- |
+| Een ML model ontwikkelen per product.        | Een volledig product beschikbaar maken voor de Home Assistant communitie. |
+| Een frond-end die alleen via PC bruikbaar is | Een user interface wanneer dit niet noodzakelijk is                       |
 
 De voorkeur is om machine learning toe te passen in dit project om zo bepaalde leerdoelen te kunnen vervullen. Mocht het zo zijn dat het niet haalbaar blijkt te zijn dan kan er afgeweken worden van deze voorkeur.
 
@@ -150,7 +137,7 @@ De werk mothode die word toegepast binnen dit project is Scrum/Agile. Dit word g
 #### Hoofdvraag
 
 Ontwikkel een Home assistant Add-on waarmee de gebruiker in home assistant
-beschikking heeft tot automatisch gegeneerde automations op basis van zijn eigen gedrag, zodat deze gebruiker zelf niet meer automations hoeft te configureren
+beschikking heeft tot automatisch gegenereerde automations op basis van zijn eigen gedrag, zodat deze gebruiker zelf niet meer automations hoeft te configureren
 
 ---
 
@@ -340,8 +327,8 @@ Dit project neemt geen kosten met zich mee.
 
 ### 5.2 Risico’s en uitwijkactiviteiten
 
-| Risico | Activiteiten ter voorkoming opgenomen in plan          | Uitwijkactiviteiten                                                                                                                                   |
-| ------ | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1      | Uitval van een collega                                 | Iedereen gaat door met zijn eigen taken. Wanneer er afhankelijkheden zijn word dit besproken door de aanwezige collegas en wanneer mogelijk opgepakt. |
-| 2      | De gewenste techniek is niet geschikt voor dit project | Er word gekeken naar andere technieken                                                                                                                |
-| 3      |                                                        |                                                                                                                                                       |
+| Risico | Activiteiten ter voorkoming opgenomen in plan              | Uitwijkactiviteiten                                                                                                                                |
+| ------ | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1      | Uitval van een collega                                     | Iedereen gaat door met zijn eigen taken. Wanneer er afhankelijkheden zijn word dit besproken door de aanwezige collegas wanneer mogelijk opgepakt. |
+| 2      | De gewenste techniek(ML) is niet geschikt voor dit project | Er word gekeken naar andere technieken                                                                                                             |
+| 3      | Home Assistant stopt met bestaan                           | We blijven voor dit project op een oude versie van Home Assistant werken.                                                                                                                                                   |
