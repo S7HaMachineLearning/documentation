@@ -238,17 +238,31 @@ Hoe kan machine learning worden gebruikt om Home Assistant automations te verbet
 | Vraag | Strategie             | Methode                                    | Onderbouwing |
 | ----- | :-------------------- | :----------------------------------------- | :----------- |
 | 1     | Quantitative research | Data analysis and evaluation               | 1A           |
+| 1     | Quantitative research | Data preprocessing and analysis            | 1B           |
+| 1     | Mixed-method research | Interviewing                               | 1C           |
 | 2     | Qualitative research  | Literature review and comparative analysis | 2A           |
+| 2     | Quantitative research | Machine learning modeling and evaluation   | 2B           |
+| 2     | Qualitative research  | Focus groups                               | 2C           |
 | 3     | Mixed-method research | Experimental research (proof-of-concept)   | 3A           |
+| 3     | Mixed-method research | User testing                               | 3A           |
+| 3     | Mixed-method research | Case study analysis                        | 3A           |
 
 <br>
 Onderbouwingen:
 
 - 1A Reden: Op basis van data-analyse van de omvang en diversiteit kan er vastgesteld worden of het voldoende is om machine learning-modellen te trainen.
+- 1B Reden: Door middel van data preprocessing kan ik de beschikbare gegevens voorbereiden op de machine learning-modellen en door middel van data-analyse kan ik de kwaliteit en de geschiktheid van de data beoordelen.
+- 1C Reden: Door middel van interviews met experts en gebruikers van Home Assistant kunnen we meer inzicht krijgen in de beschikbare data en kunnen we bepalen of er aanvullende gegevens nodig zijn voor de machine learning-modellen.
 
 - 2A Reden: Door literatuuronderzoek en vergelijkende analyse van bestaande machine learning-technieken, kan er bepaald worden welke technieken het meest geschikt zijn voor het genereren van automatiseringen binnen Home Assistant.
+- 2B Reden: Door middel van het trainen van verschillende machine learning-modellen kunnen we bepalen welke technieken het meest geschikt zijn voor het genereren van automatiseringen binnen Home Assistant. Daarnaast kunnen we de prestaties van de modellen evalueren om de nauwkeurigheid en effectiviteit te beoordelen.
+- 2C Reden:Door middel van focusgroepen met experts en gebruikers van Home Assistant kunnen we hun inzichten en ervaringen over de geschikte machine learning-technieken voor het genereren van automatiseringen verzamelen. Dit kan ons helpen om meer inzicht te krijgen in de behoeften en verwachtingen van de gebruikers.
 
 - 3A Reden: Door het bouwen van een proof-of-concept kan er geprobeerd worden of het genereren van automations op basis van locatiegegevens en apparaten werkt.
+- 3B Reden: Door middel van user testing kunnen we testen of het genereren van automatiseringen op basis van aangegeven locatie binnen Home Assistant werkt en of het voldoet aan de verwachtingen en behoeften van de gebruikers.
+- 3C Reden: Door middel van een case study-analyse van eerdere toepassingen van locatiegegevens binnen Home Assistant kunnen we bepalen welke benaderingen het meest succesvol zijn geweest en welke lessen we kunnen leren van hun successen en mislukkingen.
+
+<br>
 
 ---
 
