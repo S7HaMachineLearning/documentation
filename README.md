@@ -33,9 +33,8 @@ Het project is opensource. Iedere Home Assistan gebruiker kan gebruik maken van 
 
 De aanleiding om dit project te starten is dat het soms erg ingewikkeld kan worden om een goede automation te schrijven binnen Home Assistant. De leercurve hier in is vrij stijl en om je instance overzichtelijk en onderhoudbaar te houden zijn er een aantal best practices nodig. Dit kan voor een beginnende Home Assistant gebruiker overkomen als te techniesch, tijd rovend. Ook kan het uiten tot onbetrouwbare automations waardoor de fuctionaliteid buiten beschouwing zal worden gelaten door de gebruiker of in het ergste geval kiest de gebruiker voor een ander platform.
 
-#### 1.1.4. End-users
+#### 1.1.4. Doelgroep
 
-#watWasDitOokalweer
 
 De Home assistant gebruiker die:
 
@@ -132,10 +131,10 @@ Het doel van dit project is om op basis van gebruikers gedrag en feedback automa
 
 ### 1.3 Begrenzing en Randvoorwaarden
 
-| Tot het project behoort:              | Tot het project behoort niet:                                             |
-| ------------------------------------- | ------------------------------------------------------------------------- |
-| Een ML model ontwikkelen per product. | Een volledig product beschikbaar maken voor de Home Assistant communitie. |
-|                                       | Een user interface wanneer dit niet noodzakelijk is                       |
+| Tot het project behoort:                     | Tot het project behoort niet:                                             |
+| -------------------------------------------- | ------------------------------------------------------------------------- |
+| Een ML model ontwikkelen per product.        | Een volledig product beschikbaar maken voor de Home Assistant communitie. |
+| Een frond-end die alleen via PC bruikbaar is | Een user interface wanneer dit niet noodzakelijk is                       |
 
 De voorkeur is om machine learning toe te passen in dit project om zo bepaalde leerdoelen te kunnen vervullen. Mocht het zo zijn dat het niet haalbaar blijkt te zijn dan kan er afgeweken worden van deze voorkeur.
 
@@ -358,8 +357,9 @@ Dit project neemt geen kosten met zich mee.
 
 ### 5.2 Risico’s en uitwijkactiviteiten
 
-| Risico | Activiteiten ter voorkoming opgenomen in plan          | Uitwijkactiviteiten                                                                                                                                   |
-| ------ | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1      | Uitval van een collega                                 | Iedereen gaat door met zijn eigen taken. Wanneer er afhankelijkheden zijn word dit besproken door de aanwezige collegas en wanneer mogelijk opgepakt. |
-| 2      | De gewenste techniek is niet geschikt voor dit project | Er word gekeken naar andere technieken                                                                                                                |
-| 3      |                                                        |                                                                                                                                                       |
+
+| Risico | Activiteiten ter voorkoming opgenomen in plan              | Uitwijkactiviteiten                                                                                                                                |
+| ------ | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 Uitval van een collega      | N.V.T.                                     | Iedereen gaat door met zijn eigen taken. Wanneer er afhankelijkheden zijn word dit besproken door de aanwezige collegas wanneer mogelijk opgepakt. |
+| 2 De gewenste techniek(ML) is niet geschikt voor dit project     | N.V.T | Er word gekeken naar andere technieken                                                                                                             |
+| 3   Home Assistant stopt met bestaan  | Bij blijven dragen aan het opensrouce project                         | We blijven voor dit project op een oude versie van Home Assistant werken.                                                                                                                                                   |
