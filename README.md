@@ -231,6 +231,8 @@ Onderbouwingen:
 **Functionals en nonfunctionals**\
 zie [Requirements document](/S7HaMachineLearning/Onderzoeken/Bram/4.%20Requirements%20document.md)
 
+<br>
+
 ---
 
 ##### Onderzoeksvraag 3 BC
@@ -274,8 +276,8 @@ Onderbouwingen:
 - 3B Reden: Door middel van user testing kunnen we testen of het genereren van automatiseringen op basis van aangegeven locatie binnen Home Assistant werkt en of het voldoet aan de verwachtingen en behoeften van de gebruikers.
 - 3C Reden: Door middel van een case study-analyse van eerdere toepassingen van locatiegegevens binnen Home Assistant kunnen we bepalen welke benaderingen het meest succesvol zijn geweest en welke lessen we kunnen leren van hun successen en mislukkingen.
 
-**Functionals en nonfunctionals**\
-
+**Functionals en nonfunctionals**
+zie [Requirements](/S7HaMachineLearning/Onderzoeken/Bastiaan/0.%20Requirements.md)
 <br>
 
 ---
