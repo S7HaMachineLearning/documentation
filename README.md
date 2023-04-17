@@ -270,7 +270,8 @@ Onderbouwingen:
 
 (Een Product Breakdown Structure van de eindproducten die het project op gaat leveren met een korte omschrijving in tekst van elk product. Merk op dat je op later moment in overleg kunt besluiten om je PBS te wijzigen.)
 
-![[2023-03-06 08_52_36-Fontys - Projectplan - Template v2.0 - Word.png]]
+![PBS](./Attachments/2023-03-06%2008_52_36-Fontys%20-%20Projectplan%20-%20Template%20v2.0%20-%20Word.png)
+s
 
 ## 2. Projectorganisatie
 
