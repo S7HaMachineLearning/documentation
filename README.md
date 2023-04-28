@@ -48,47 +48,46 @@ De Home assistant gebruiker die:
 
 ##### Trainingsinterface - Bram
 
-|                     |                                                                                                                                                                                                                  |
-| :------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Use case            | 1. Sensor type toekennen                                                                                                                                                                                         |
-| Acteur              | De gebruiker                                                                                                                                                                                                     |
-| Standaard flow      | Bij het eerste keer gebruiken van de applicatie moet de gebruiker een aantal vragen beantwoorden. Hij krijgt een lijst van zijn gekoppelde sensoren te zien. De gebruiker moet aangeven welk type sensor het is. |
-| Alternatief flow 1. | De gebruiker heeft al een training gedaan en wil deze aanpassen.                                                                                                                                                 |
-| Alternatief flow 2. | De gebruiker kent geen type toe aan sensoren                                                                                                                                                                     |
+|                     |                          |
+| :------------------ | :----------------------- |
+| Use case            | 1. Sensor type toekennen |
+| Acteur              | De gebruiker             |
+| Standaard flow      | 1. Bij het eerste keer gebruiken van de applicatie moet de gebruiker een aantal vragen beantwoorden.<br/>2. De gebruiker krijgt een lijst van zijn sensoren te zien vanuit Home Assistant.<br/>3. Per sensor kiest de gebruiker een type sensor en slaat deze op.<br/>4. De gebruiker kiest een type sensor.<br/> |
+| Alternatief flow 1. | 1. De gebruiker heeft al een training gedaan en wil deze aanpassen.  |
+| Alternatief flow 2. | 3. De gebruiker kent geen type toe aan sensoren   | 
 
-|                     |                                                                                                                                                                                                                                                                                                                                    |
-| :------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Use case            | 2. Gegeneerde automation keuren                                                                                                                                                                                                                                                                                                    |
-| Acteur              | De gebruiker                                                                                                                                                                                                                                                                                                                       |
-| Standaard flow      | De gebruiker krijgt een scherm te zien met hierop een automatisch gegeneerde automation, na het controleren hiervan kiest de gebruiker om deze toe te voegen aan zijn Home Assistant instance. Na de keuzen word deze automation ook daadwerkelijk toegevoegd en word het systeem herladen om de nieuwe automation actief te maken |
-| Alternatief flow 1. | De gegeneerde automation klopt, maar de gebruiker kiest er voor om hem niet toe te voegen.                                                                                                                                                                                                                                         |
-| Alternatief flow 2. | De gegeneerde automation klopt NIET, de gebruiker geeft aan dat deze incorrect is en voegt hem niet toe.                                                                                                                                                                                                                           |
 
-<br>
-<br>
+|                     |                          |
+| :------------------ | :---------------------   |
+| Use case            | 2. Gegeneerde automation |
+| Acteur              | De gebruiker             |
+| Standaard flow      | 1. De gebruiker krijgt een scherm te zien met hierop een automatisch gegeneerde automation.<br/>2. De gebruiker controleerd de automation op validiteit en bruikbaarheid.<br/>3. De gebruiker kiest om de automation toe te voegen aan zijn Home Assistant instance.<br/>4. De automation word toegevoegd aan de Home Assistant instance.<br/>5. Home assistant herlaad de automations om de nieuwe automation actief te maken<br/> |
+| Alternatief flow 1. | 3. De gegeneerde automation klopt, maar de gebruiker kiest er voor om hem niet toe te voegen.     |
+| Alternatief flow 2. | 3. De gegeneerde automation klopt NIET, de gebruiker geeft aan dat deze incorrect is en voegt hem niet toe.    |
+
 
 ##### automation generator - Bastiaan
 
 | Use case          | Gebruikersgedrag analyseren en automations voorstellen                                                                                                                                                                                                                                                                                                                   |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Acteur            | Systeem, Home Assistant gebruiker                                                                                                                                                                                                                                                                                                                                        |
-| Standaard flow    | 1. Systeem verzamelt gegevens over gebruikersgedrag in Home Assistant. 2. Systeem analyseert de verzamelde gegevens met behulp van machine learning. 3. Systeem genereert automations op basis van de geanalyseerde gegevens. 4. Systeem presenteert de gegenereerde automations aan de gebruiker. 5. Gebruiker beoordeelt en implementeert de voorgestelde automations. |
-| Alternatiefe flow | 1. Systeem kan niet voldoende gegevens verzamelen over het gedrag van de gebruiker. 2. Systeem vraagt de gebruiker om meer gegevens te verstrekken om de analyse te verbeteren. 3. Gebruiker verstrekt aanvullende gegevens. 4. Systeem hervat de standaard flow vanaf stap 2.                                                                                           |
+| Standaard flow    | 1. Systeem verzamelt gegevens over gebruikersgedrag in Home Assistant.<br/>2. Systeem analyseert de verzamelde gegevens met behulp van machine learning.<br/>3. Systeem genereert automations op basis van de geanalyseerde gegevens.<br/>4. Systeem presenteert de gegenereerde automations aan de gebruiker.<br/>5. Gebruiker beoordeelt en implementeert de voorgestelde automations. |
+| Alternatiefe flow | 1. Systeem kan niet voldoende gegevens verzamelen over het gedrag van de gebruiker.<br/>2. Systeem vraagt de gebruiker om meer gegevens te verstrekken om de analyse te verbeteren.<br/>3. Gebruiker verstrekt aanvullende gegevens.<br/>4. Systeem hervat de standaard flow vanaf stap 2.                                                                                           |
 
 <br>
 
 | Use case          | Automation genereren op basis van locatie                                                                                                                                                                                                                                                                                                                    |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Acteur            | Systeem, Home Assistant gebruiker                                                                                                                                                                                                                                                                                                                            |
-| Standaard flow    | 1. Systeem verzamelt locatiegegevens van de gebruiker in Home Assistant. 2. Systeem analyseert de verzamelde locatiegegevens met behulp van machine learning. 3. Systeem genereert locatiegebaseerde automations. 4. Systeem presenteert de gegenereerde automations aan de gebruiker. 5. Gebruiker beoordeelt en implementeert de voorgestelde automations. |
-| Alternatiefe flow | 1. Systeem kan niet voldoende locatiegegevens verzamelen. 2. Systeem vraagt de gebruiker om meer locatiegegevens te verstrekken om de analyse te verbeteren. 3. Gebruiker verstrekt aanvullende locatiegegevens. 4. Systeem hervat de standaard flow vanaf stap 2.                                                                                           |
+| Standaard flow    | 1. Systeem verzamelt locatiegegevens van de gebruiker in Home Assistant.<br/>2. Systeem analyseert de verzamelde locatiegegevens met behulp van machine learning.<br/>3. Systeem genereert locatiegebaseerde automations.<br/>4. Systeem presenteert de gegenereerde automations aan de gebruiker.<br/>5. Gebruiker beoordeelt en implementeert de voorgestelde automations. |
+| Alternatiefe flow | 1. Systeem kan niet voldoende locatiegegevens verzamelen.<br/>2. Systeem vraagt de gebruiker om meer locatiegegevens te verstrekken om de analyse te verbeteren.<br/>3. Gebruiker verstrekt aanvullende locatiegegevens.<br/>4. Systeem hervat de standaard flow vanaf stap 2.                                                                                           |
 
 <br>
 
 | Use case       | Machine learning model selectie en optimalisatie                                                                                                                                                                                                                                                                                                                                                                             |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Acteur         | Systeem, Onderzoeker                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Standaard flow | 1. Onderzoeker identificeert geschikte machine learning technieken voor het genereren van automations. 2. Systeem traint verschillende machine learning modellen met behulp van verzamelde gegevens. 3. Systeem evalueert en vergelijkt de prestaties van de getrainde modellen. 4. Systeem selecteert het beste model en optimaliseert het voor gebruik. 5. Systeem implementeert het geoptimaliseerde model voor het gener |
+| Standaard flow | 1. Onderzoeker identificeert geschikte machine learning technieken voor het genereren van automations.<br/>2. Systeem traint verschillende machine learning modellen met behulp van verzamelde gegevens.<br/>3. Systeem evalueert en vergelijkt de prestaties van de getrainde modellen.<br/>4. Systeem selecteert het beste model en optimaliseert het voor gebruik.<br/>5. Systeem implementeert het geoptimaliseerde model voor het gener |
 
 <br>
 <br>
