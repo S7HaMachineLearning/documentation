@@ -1,0 +1,233 @@
+openapi: 3.0.3
+info:
+  title: Automated Automations API
+  description: |-
+    This is the OpenAPI 3.0 specification for the Automated Automation's API
+    
+    There is not authorization
+  version: 1.0.0
+servers:
+  - url: http://127.0.0.1:8000/
+tags:
+  - name: Sensors
+    description: Everything about the AA sensors
+  - name: HA sensors
+    description: Everything to do with Home Assistant sensors
+  - name: Automations
+    description: Everything about the generated AA automation's 
+  - name: Feedback
+    description: Everything about Feedback on generated AA automation's 
+paths:
+  /sensors:
+    get:
+      tags:
+        - Sensors
+      summary: Get all AA sensors
+      description: Get a list of all configured AA sensors
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  allOf:
+                    - $ref: '#/components/schemas/Id'
+                    - $ref: '#/components/schemas/Sensor'
+                    - $ref: '#/components/schemas/Entity'
+    post:
+      tags:
+        - Sensors
+      summary: Save a AA sensor
+      description: Add a newly configured sensor to AA
+      requestBody:
+        description: Update an existent pet in the store
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Sensor'
+        required: true
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  allOf:
+                    - $ref: '#/components/schemas/Id'
+                    - $ref: '#/components/schemas/Sensor'
+                    - $ref: '#/components/schemas/Entity'
+  /sensors/{sensorId}:
+    delete:
+      tags:
+        - Sensors
+      summary: Deletes a sensor
+      description: delete a sensor
+      parameters:
+        - name: sensorId
+          in: path
+          description: Sensor id to delete
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '404':
+          description: Could not find sensor with given ID
+  /sensors/ha:
+    get:
+      tags:
+        - HA sensors
+      summary: Get all Ha sensors
+      description: Get a list of all sensors in Home Assistant
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/HaSensor'   
+  /automations:
+    get:
+      tags:
+        - Automations
+      summary: Get all automation's
+      description: Get a list of all automation's in AA
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  allOf:
+                    - $ref: '#/components/schemas/Id'
+                    - $ref: '#/components/schemas/Automation'
+                    - $ref: '#/components/schemas/Entity' 
+  /feedback:
+    get:
+      tags:
+        - Feedback
+      summary: Get all given Feedback
+      description: Get a list of all given feedback on automation's
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  allOf:
+                    - $ref: '#/components/schemas/Id'
+                    - $ref: '#/components/schemas/Feedback'
+                    - $ref: '#/components/schemas/Entity' 
+    post:
+      tags:
+        - Feedback
+      summary: Give feedback
+      description: Give feedback to generated automation
+      requestBody:
+        description: Created feedback object
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Feedback'
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  allOf:
+                    - $ref: '#/components/schemas/Id'
+                    - $ref: '#/components/schemas/Feedback'
+                    - $ref: '#/components/schemas/Entity'
+        '404':
+          description: Could not find automation with given ID
+        
+components:
+  schemas:
+    Id:
+      type: object
+      description: This object contains the model of the identifier
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 10
+    Entity:
+      type: object
+      description: This object contains the model for the props used in every entity
+      properties:
+        createdOn:
+          type: string
+          example: "2023-05-15 12:16:36.198748"
+        updatedOn:
+          type: string
+          example: "2023-05-15 12:16:36.198748"
+        deleted:
+          type: string
+          example: "0"
+    Sensor:
+      type: object
+      properties:
+        friendlyName:
+          type: string
+          example: "Temp livingroom"
+        haSensorId:
+          type: string
+          example: "sensor.temp_livingroom"
+        type:
+          type: string
+          description: Sensor type
+          example: TEMPERATURE
+          enum:
+            - TEMPERATURE
+            - HUMIDITY
+    HaSensor:
+      type: object
+      properties:
+        entityId:
+          type: string
+          example: "sensor.temp_livingroom"
+        friendlyName:
+          type: string
+          example: "Temp livingroom"
+        state:
+          type: string
+          example: "21.2"
+    Automation:
+      type: object
+      properties:
+        value:
+          type: string
+        status:
+          type: string
+          description: Sensor type
+          example: NEW
+          enum:
+            - NEW
+            - IMPLEMENTED
+            - REJECTED
+    Feedback:
+      type: object
+      properties:
+        automationId:
+          type: string
+        type:
+          type: string
+          description: Feedback
+          example: ACCEPTED
+          enum:
+            - ACCEPTED
+            - REJECTED_OK
+            - REJECTED_FAULTY
