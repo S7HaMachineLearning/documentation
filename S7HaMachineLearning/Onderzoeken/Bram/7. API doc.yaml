@@ -60,6 +60,8 @@ paths:
                     - $ref: '#/components/schemas/Id'
                     - $ref: '#/components/schemas/Sensor'
                     - $ref: '#/components/schemas/Entity'
+        '409':
+          description: Sensor with same haSensorId already exists
   /sensors/{sensorId}:
     delete:
       tags:
