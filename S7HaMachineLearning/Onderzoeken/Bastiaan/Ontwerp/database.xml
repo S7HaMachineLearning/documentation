@@ -1,0 +1,21 @@
+<shape name="Cylinder with Different Top Color">
+  <background>
+    <fillstroke/>
+  </background>
+  <foreground>
+    <path>
+      <move x="0.5" y="0.25"/>
+      <curve x="0.5" y="0" w="0.5" h="0.5" start="0" extent="180"/>
+      <line x="0" y="0.25"/>
+      <curve x="0.5" y="0" w="0.5" h="0.5" start="180" extent="180"/>
+      <line x="1" y="0.25"/>
+    </path>
+    <fillstroke>
+      <fill color="#BEBEBE" type="solid"/>
+      <stroke color="#3B3B3B" width="1"/>
+    </fillstroke>
+    <fillstroke name="top">
+      <fill color="#383838" type="solid"/>
+    </fillstroke>
+  </foreground>
+</shape>
