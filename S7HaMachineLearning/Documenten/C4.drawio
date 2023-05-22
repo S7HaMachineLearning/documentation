@@ -1,0 +1,561 @@
+<mxfile host="Electron" modified="2023-05-22T18:19:06.032Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" version="21.2.8" etag="hj-L6wZgfXzlTNyHZ_2l" type="device" pages="4">
+  <diagram name="C1 model" id="C1_model">
+    <mxGraphModel dx="712" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" tags="Achtergrond" id="2">
+          <mxCell style="vsdxID=1;fillColor=#08427b;gradientColor=none;shape=stencil(vZTRjoMgEEW/hkcJMIr63O3+B2lRyVIxSLft3y8uppXamm038W24c4fJmcAg2PSN6CRipHfWfMmT2rsGwQdiTLWNtMr5CMEWwaYyVtbWHNt9OHdicA7RwXwPN5xDHWSYlkMVI5dRKTH9FT6DX6t24qcF5vmiX9idT9qJnwe/HQsoxwyCNJpIdGGWYUjHfCLOqk+sccIp00ZuLWwtE98tqbSoo1R/krKbyQ954tYF4Jwvw+RzmDSCmU+IErIWTkExwMPm/wAiz4a0AtB989vjeB9oPqTrG16BiKe4oC/8IOb9MRGjmJcR0cIvfpmI/oHIB7eFUimtwz6a5u8XkJfC8oLtDw==);strokeColor=#073b6f;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="115" y="50" width="160" height="172" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="3" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;HA gebruiker&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Person]&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;H&lt;/font&gt;&lt;font style=&quot;background-color: initial; font-size: 11.29px; font-family: Calibri; color: rgb(255, 255, 255); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;eeft&lt;/font&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 255, 255); font-family: Calibri; font-size: 11.29px; letter-spacing: 0px;&quot;&gt;&amp;nbsp;een eigen HA OS instance draaien&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;vsdxID=1;fillColor=none;gradientColor=none;strokeColor=none;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;overflow=width;;html=1;" parent="2" vertex="1">
+          <mxGeometry y="66.88" width="160" height="105.12" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Add-on&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Container: technology]&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br&gt;Doet voorspellingen, genereert code, runt webinterface&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#FFFFFF;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="4">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=2;fillColor=#1168bd;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=#1864ad;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="120" y="355" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px; text-indent: 0px; vertical-align: middle; direction: ltr;&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(255, 255, 255); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;HA OS&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8.47px; font-family: Themed; color: rgb(255, 255, 255); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;[Software System]&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Themed; color: rgb(255, 255, 255); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Themed&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 11.29px;&quot;&gt;Home autoamtion systeem&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="5">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=3;fillColor=#999999;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=#8b8b8b;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="120" y="620" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Achtergrond" id="6">
+          <mxCell style="vsdxID=4;fillColor=none;gradientColor=none;strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="500" y="355" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="7" style="vsdxID=5;fillColor=none;gradientColor=none;strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="6" vertex="1">
+          <mxGeometry width="150" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="8" style="vsdxID=6;fillColor=#8b8b8b;gradientColor=none;shape=stencil(nZFLDsIwDERP4y0KyQbWpVyAE0TEEIuQVGn5np60U6TSBYtmZc8829KETNV62zBp1XY5XfghrvNkdqS1RM9ZulKRqclUp5T5nNMtOvSNLaRWg8IOM+ue1srm40HePGqr7e/bAMKWa7r3159gFazXOKnQ74EGiRP0ay6C/6ALwdn5Ugz5IDkJAfFO/XmeRcJfmPoD);strokeColor=#8b8b8b;strokeWidth=0;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=1;html=1;whiteSpace=wrap;" parent="7" vertex="1">
+          <mxGeometry width="150" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="text;vsdxID=6;fillColor=none;gradientColor=none;strokeColor=none;strokeWidth=0;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=1;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;overflow=width;;html=1;" parent="8" vertex="1">
+          <mxGeometry x="8" y="3" width="136" height="97.2" as="geometry" />
+        </mxCell>
+        <mxCell id="10" style="vsdxID=7;fillColor=#999999;gradientColor=none;shape=stencil(vVHLDsIgEPwajiQI6RfU+h8bu22JCGRB2/69kG1iazx58DazM/vIjjBtmiCi0CplCjecbZ8nYc5Ca+snJJsLEqYTph0C4Ujh4XvmEaqzont41gkL96naodXKrGF6YSfQtUi0OXXDVlqPfJNP6usotUhYbJIUMmQb/GGrAxpRljVycDBuc1hKM2LclX8/7H9nFfB+82Cd45T2+mcspcSRmu4F);strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="7" vertex="1">
+          <mxGeometry x="4" y="2" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=middle;align=center;overflow=width;vsdxID=8;fillColor=#999999;gradientColor=none;shape=stencil(nZFLDsIwDERP4y0KyQbWpVyAE0TEEIuQVGn5np60U6TSBYtmZc8829KETNV62zBp1XY5XfghrvNkdqS1RM9ZulKRqclUp5T5nNMtOvSNLaRWg8IOM+ue1srm40HePGqr7e/bAMKWa7r3159gFazXOKnQ74EGiRP0ay6C/6ALwdn5Ugz5IDkJAfFO/XmeRcJfmPoD);strokeColor=#8b8b8b;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=1;html=1;whiteSpace=wrap;" parent="7" vertex="1">
+          <mxGeometry x="3" y="13" width="144" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="12" style="vsdxID=9;fillColor=#999999;gradientColor=none;shape=stencil(vVHLDsIgEPwajiQI6RfU+h8bu22JCGRB2/69kG1iazx58DazM/vIjjBtmiCi0CplCjecbZ8nYc5Ca+snJJsLEqYTph0C4Ujh4XvmEaqzont41gkL96naodXKrGF6YSfQtUi0OXXDVlqPfJNP6usotUhYbJIUMmQb/GGrAxpRljVycDBuc1hKM2LclX8/7H9nFfB+82Cd45T2+mcspcSRmu4F);strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="7" vertex="1">
+          <mxGeometry x="15" y="2" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="13" style="vsdxID=10;fillColor=#999999;gradientColor=none;shape=stencil(vVHLDsIgEPwajiQI6RfU+h8bu22JCGRB2/69kG1iazx58DazM/vIjjBtmiCi0CplCjecbZ8nYc5Ca+snJJsLEqYTph0C4Ujh4XvmEaqzont41gkL96naodXKrGF6YSfQtUi0OXXDVlqPfJNP6usotUhYbJIUMmQb/GGrAxpRljVycDBuc1hKM2LclX8/7H9nFfB+82Cd45T2+mcspcSRmu4F);strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="7" vertex="1">
+          <mxGeometry x="26" y="2" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=middle;align=center;overflow=width;vsdxID=11;fillColor=#999999;gradientColor=none;shape=stencil(nZFLDsIwDERP4y0KiYTEupQLcIKIGGIRkiot5XN60g5IpQsWzcqeebGlMZmq9bZh0qrtcrrwXVznyexIa4mes3SlIlOTqU4p8zmnW3ToG1tIrUaFHf6sB1orm48HeTE0s9r+vg0gTLmmftj+AKtgPT/TFPo90CBxgn7NRfAfdCE4W1+KMR8kJyEg3qk/z7NIuIWp3w==);strokeColor=#8b8b8b;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=1;html=1;whiteSpace=wrap;" parent="7" vertex="1">
+          <mxGeometry x="36" y="2" width="109" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="15" style="vsdxID=12;fillColor=none;gradientColor=none;strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="6" vertex="1">
+          <mxGeometry width="150" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;HA Interface&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Container: technology]&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;description of&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;container&lt;/font&gt;&lt;font style=&quot;font-size:16.93px;font-family:Themed;color:#4672c4;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;vsdxID=12;fillColor=none;gradientColor=none;strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;overflow=width;;html=1;" parent="15" vertex="1">
+          <mxGeometry x="4" y="14" width="142" height="87" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Heeft interactie met de web interface&lt;br/&gt;Van HA&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="17">
+          <mxCell style="vsdxID=13;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.49333333333333335;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="7" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="-1" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="crYPhu6A51jv9rqgDf9V-29" value="Heeft interactie met interface HA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="17">
+          <mxGeometry x="-0.2229" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Gebruikt de web interface &lt;br/&gt;Van HA&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="18">
+          <mxCell style="vsdxID=14;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=1;exitY=0.49523809523809526;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.49523809523809526;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4" target="6" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="-1" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="crYPhu6A51jv9rqgDf9V-27" value="Gebruikt de webinterface&lt;br&gt;van HA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="18">
+          <mxGeometry x="-0.1217" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;HA Instance gebruikt een Web interface&lt;br/&gt;Zodat de gebruiker interactie kan hebben &lt;br/&gt;Met zijn eigen instance&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="19">
+          <mxCell style="vsdxID=15;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.9904761904761905;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5" target="8" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-1" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="crYPhu6A51jv9rqgDf9V-28" value="HA instance gebruikt een webinterface" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="19">
+          <mxGeometry x="-0.1485" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Traint het model&lt;br/&gt;Keurt gegenereerde automations&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="20">
+          <mxCell style="vsdxID=17;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=0.5;exitY=1.005813953488372;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="4" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-10" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="crYPhu6A51jv9rqgDf9V-21" value="Geeft het model feedback" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="20">
+          <mxGeometry x="-0.2403" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Add-on draait op de HA instance&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="21">
+          <mxCell style="vsdxID=16;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4" target="5" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="10" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="crYPhu6A51jv9rqgDf9V-22" value="Add-on communiceerd met&lt;br&gt;HA OS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="21">
+          <mxGeometry x="-0.125" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="C2 Model" id="C2_Model">
+    <mxGraphModel dx="712" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" tags="Achtergrond" id="2">
+          <mxCell style="vsdxID=1;fillColor=#08427b;gradientColor=none;shape=stencil(vZTRjoMgEEW/hkcJMIr63O3+B2lRyVIxSLft3y8uppXamm038W24c4fJmcAg2PSN6CRipHfWfMmT2rsGwQdiTLWNtMr5CMEWwaYyVtbWHNt9OHdicA7RwXwPN5xDHWSYlkMVI5dRKTH9FT6DX6t24qcF5vmiX9idT9qJnwe/HQsoxwyCNJpIdGGWYUjHfCLOqk+sccIp00ZuLWwtE98tqbSoo1R/krKbyQ954tYF4Jwvw+RzmDSCmU+IErIWTkExwMPm/wAiz4a0AtB989vjeB9oPqTrG16BiKe4oC/8IOb9MRGjmJcR0cIvfpmI/oHIB7eFUimtwz6a5u8XkJfC8oLtDw==);strokeColor=#073b6f;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="389" y="25" width="150" height="172" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="3" value="&lt;div style=&quot;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px; text-indent: 0px; vertical-align: middle; direction: ltr;&quot;&gt;&lt;font style=&quot;font-family: Calibri; color: rgb(255, 255, 255); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1; font-size: 14.11px;&quot;&gt;Gebruiker&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; margin: 0px; text-indent: 0px; vertical-align: middle; direction: ltr;&quot;&gt;&lt;font style=&quot;font-size: 8.47px; font-family: Calibri; color: rgb(255, 255, 255); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;[Persoon]&lt;/font&gt;&lt;font style=&quot;font-family: Calibri; color: rgb(255, 255, 255); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11.29px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; margin: 0px; text-indent: 0px; vertical-align: middle; direction: ltr;&quot;&gt;&lt;font style=&quot;font-family: Calibri; color: rgb(255, 255, 255); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;&lt;span style=&quot;font-size: 11.29px;&quot;&gt;Home assistant gebruiker met een eigen HA instance&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;vsdxID=1;fillColor=none;gradientColor=none;strokeColor=none;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;overflow=width;;html=1;" parent="2" vertex="1">
+          <mxGeometry y="66.88" width="150" height="105.12" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:bottom;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#feffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;n&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Themed;color:#feffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;ame&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#feffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Software System]&lt;/font&gt;&lt;font style=&quot;font-size:16.93px;font-family:Themed;color:#feffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="4">
+          <mxCell style="verticalAlign=bottom;align=left;overflow=width;vsdxID=2;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);dashed=1;dashPattern=12.00 6.00;strokeColor=#444444;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="60" y="280" width="760" height="507" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px; text-indent: 0px; vertical-align: middle; direction: ltr;&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;Gebruikersgedrag model&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8.47px; font-family: Themed; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;[Component: Python]&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Themed; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Themed&quot;&gt;&lt;span style=&quot;font-size: 11.29px;&quot;&gt;Doet voorspellingen op basis van historische data voor climate entities&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="5">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=4;fillColor=#85bbf0;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=#78a8d8;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="630" y="620" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px; text-indent: 0px; vertical-align: middle; direction: ltr;&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;Survey API&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8.47px; font-family: Themed; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;[Component: Python]&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Themed; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 14.11px;&quot;&gt;Endpoint voor sensor en automations evaluatie&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="6">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=5;fillColor=#85bbf0;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=#78a8d8;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="389" y="620" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px; text-indent: 0px; vertical-align: middle; direction: ltr;&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;Automation generator model&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8.47px; font-family: Themed; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;[Component: Python]&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Themed; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 14.11px;&quot;&gt;Op basis van input automations genereren.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="7">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=6;fillColor=#85bbf0;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=#78a8d8;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="118" y="620" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Achtergrond" id="8">
+          <mxCell style="vsdxID=8;fillColor=none;gradientColor=none;strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="310" y="300" width="301" height="153" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9" style="vsdxID=9;fillColor=none;gradientColor=none;strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="8" vertex="1">
+          <mxGeometry width="301" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="10" style="vsdxID=10;fillColor=#3d81c3;gradientColor=none;shape=stencil(nZFLDsIwDERP4y0KyQbWpVyAE0TEEIuQVGn5np60U6TSBYtmZc8829KETNV62zBp1XY5XfghrvNkdqS1RM9ZulKRqclUp5T5nNMtOvSNLaRWg8IOM+ue1srm40HePGqr7e/bAMKWa7r3159gFazXOKnQ74EGiRP0ay6C/6ALwdn5Ugz5IDkJAfFO/XmeRcJfmPoD);strokeColor=#3d81c3;strokeWidth=0;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=1;html=1;whiteSpace=wrap;" parent="9" vertex="1">
+          <mxGeometry width="301" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="text;vsdxID=10;fillColor=none;gradientColor=none;strokeColor=none;strokeWidth=0;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=1;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;overflow=width;;html=1;" parent="10" vertex="1">
+          <mxGeometry x="16.053333333333335" y="4.371428571428571" width="272.9066666666667" height="141.6342857142857" as="geometry" />
+        </mxCell>
+        <mxCell id="12" style="vsdxID=11;fillColor=#408dd5;gradientColor=none;shape=stencil(vVHLDsIgEPwajiQI6RfU+h8bu22JCGRB2/69kG1iazx58DazM/vIjjBtmiCi0CplCjecbZ8nYc5Ca+snJJsLEqYTph0C4Ujh4XvmEaqzont41gkL96naodXKrGF6YSfQtUi0OXXDVlqPfJNP6usotUhYbJIUMmQb/GGrAxpRljVycDBuc1hKM2LclX8/7H9nFfB+82Cd45T2+mcspcSRmu4F);strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="9" vertex="1">
+          <mxGeometry x="8.026666666666667" y="2.914285714285714" width="16.053333333333335" height="11.657142857142857" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=middle;align=center;overflow=width;vsdxID=12;fillColor=#438dd5;gradientColor=none;shape=stencil(nZFLDsIwDERP4y0KyQbWpVyAE0TEEIuQVGn5np60U6TSBYtmZc8829KETNV62zBp1XY5XfghrvNkdqS1RM9ZulKRqclUp5T5nNMtOvSNLaRWg8IOM+ue1srm40HePGqr7e/bAMKWa7r3159gFazXOKnQ74EGiRP0ay6C/6ALwdn5Ugz5IDkJAfFO/XmeRcJfmPoD);strokeColor=#3d81c3;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=1;html=1;whiteSpace=wrap;" parent="9" vertex="1">
+          <mxGeometry x="6.0200000000000005" y="18.942857142857143" width="288.96000000000004" height="129.68571428571428" as="geometry" />
+        </mxCell>
+        <mxCell id="14" style="vsdxID=13;fillColor=#408dd5;gradientColor=none;shape=stencil(vVHLDsIgEPwajiQI6RfU+h8bu22JCGRB2/69kG1iazx58DazM/vIjjBtmiCi0CplCjecbZ8nYc5Ca+snJJsLEqYTph0C4Ujh4XvmEaqzont41gkL96naodXKrGF6YSfQtUi0OXXDVlqPfJNP6usotUhYbJIUMmQb/GGrAxpRljVycDBuc1hKM2LclX8/7H9nFfB+82Cd45T2+mcspcSRmu4F);strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="9" vertex="1">
+          <mxGeometry x="30.1" y="2.914285714285714" width="16.053333333333335" height="11.657142857142857" as="geometry" />
+        </mxCell>
+        <mxCell id="15" style="vsdxID=14;fillColor=#408dd5;gradientColor=none;shape=stencil(vVHLDsIgEPwajiQI6RfU+h8bu22JCGRB2/69kG1iazx58DazM/vIjjBtmiCi0CplCjecbZ8nYc5Ca+snJJsLEqYTph0C4Ujh4XvmEaqzont41gkL96naodXKrGF6YSfQtUi0OXXDVlqPfJNP6usotUhYbJIUMmQb/GGrAxpRljVycDBuc1hKM2LclX8/7H9nFfB+82Cd45T2+mcspcSRmu4F);strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="9" vertex="1">
+          <mxGeometry x="52.17333333333334" y="2.914285714285714" width="16.053333333333335" height="11.657142857142857" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=middle;align=center;overflow=width;vsdxID=15;fillColor=#438dd5;gradientColor=none;shape=stencil(nZFLDsIwDERP4y0KiYTEupQLcIKIGGIRkiot5XN60g5IpQsWzcqeebGlMZmq9bZh0qrtcrrwXVznyexIa4mes3SlIlOTqU4p8zmnW3ToG1tIrUaFHf6sB1orm48HeTE0s9r+vg0gTLmmftj+AKtgPT/TFPo90CBxgn7NRfAfdCE4W1+KMR8kJyEg3qk/z7NIuIWp3w==);strokeColor=#3d81c3;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=1;html=1;whiteSpace=wrap;" parent="9" vertex="1">
+          <mxGeometry x="72.24000000000001" y="2.914285714285714" width="218.7266666666667" height="11.657142857142857" as="geometry" />
+        </mxCell>
+        <mxCell id="17" style="vsdxID=16;fillColor=none;gradientColor=none;strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="8" vertex="1">
+          <mxGeometry width="301" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="&lt;div style=&quot;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px; text-indent: 0px; vertical-align: middle; direction: ltr;&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(255, 255, 255); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;Single-page application&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8.47px; font-family: Themed; color: rgb(255, 255, 255); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;[Container: JavaScript, Angualar]&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Themed&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 11.29px;&quot;&gt;Toont een webpagina die mogelijkheid biedt om automations te keuren en entities te typeren.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;vsdxID=16;fillColor=none;gradientColor=none;strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;overflow=width;;html=1;" parent="17" vertex="1">
+          <mxGeometry x="8.026666666666667" y="20.4" width="284.9466666666667" height="126.77142857142857" as="geometry" />
+        </mxCell>
+        <UserObject label="" tags="Achtergrond" id="19">
+          <mxCell style="vsdxID=25;fillColor=#999999;gradientColor=none;shape=stencil(vVTbcoMgEP0aHmUQROU5Tf6DaVCZUHGQXPr3haLJgEmmkyZ5W/awl7M3QFZjxwcBMBqt0TtxlFvbAfIBMJZ9J4y0TgJkDciq0Ua0Ru/7bXgP3P/00pc+eA+nYMcYZLW3wug7aHICMfnVbIIBN58ONZNBwSANMDILi9krRZDiyCua8Iyf5JgZbbmVuo8wxU0rMhctaxRvI2g8CjEs1FN+SvYiCl3QK6GvkvF5LslQGpFBaXkIeReZOHRdztQeJ+PLU8aE0L3e5PWzuzPnmIR/fNj8CLO0UFX1PlJ/2CEnXDawkUqFBT7jt9YTQVSlnnP8/xmIRwCXsHxpvWJS54m7ZFg84eIU1ctJ5Td7mvTTCekFdqpwvcn6Bw==);strokeColor=#8b8b8b;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="860" y="481" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="20" value="&lt;div style=&quot;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px; text-indent: 0px; vertical-align: middle; direction: ltr;&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(255, 255, 255); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;HA Database&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8.47px; font-family: Themed; color: rgb(255, 255, 255); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;[Container: sqlite]&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Themed&quot; style=&quot;color: rgb(255, 255, 255); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1; font-size: 11.29px;&quot;&gt;Database waar HA alle informatie in op slaat&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;vsdxID=25;fillColor=none;gradientColor=none;strokeColor=none;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;overflow=width;;html=1;" parent="19" vertex="1">
+          <mxGeometry y="28" width="150" height="77" as="geometry" />
+        </mxCell>
+        <UserObject label="" tags="Achtergrond" id="21">
+          <mxCell style="vsdxID=40;fillColor=none;gradientColor=none;strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="860" y="160" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="22" style="vsdxID=41;fillColor=none;gradientColor=none;strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="21" vertex="1">
+          <mxGeometry width="150" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="23" style="vsdxID=42;fillColor=#8b8b8b;gradientColor=none;shape=stencil(nZFLDsIwDERP4y0KyQbWpVyAE0TEEIuQVGn5np60U6TSBYtmZc8829KETNV62zBp1XY5XfghrvNkdqS1RM9ZulKRqclUp5T5nNMtOvSNLaRWg8IOM+ue1srm40HePGqr7e/bAMKWa7r3159gFazXOKnQ74EGiRP0ay6C/6ALwdn5Ugz5IDkJAfFO/XmeRcJfmPoD);strokeColor=#8b8b8b;strokeWidth=0;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=1;html=1;whiteSpace=wrap;" parent="22" vertex="1">
+          <mxGeometry width="150" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="text;vsdxID=42;fillColor=none;gradientColor=none;strokeColor=none;strokeWidth=0;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=1;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;overflow=width;;html=1;" parent="23" vertex="1">
+          <mxGeometry x="8" y="3" width="136" height="97.2" as="geometry" />
+        </mxCell>
+        <mxCell id="25" style="vsdxID=43;fillColor=#999999;gradientColor=none;shape=stencil(vVHLDsIgEPwajiQI6RfU+h8bu22JCGRB2/69kG1iazx58DazM/vIjjBtmiCi0CplCjecbZ8nYc5Ca+snJJsLEqYTph0C4Ujh4XvmEaqzont41gkL96naodXKrGF6YSfQtUi0OXXDVlqPfJNP6usotUhYbJIUMmQb/GGrAxpRljVycDBuc1hKM2LclX8/7H9nFfB+82Cd45T2+mcspcSRmu4F);strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="22" vertex="1">
+          <mxGeometry x="4" y="2" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=middle;align=center;overflow=width;vsdxID=44;fillColor=#999999;gradientColor=none;shape=stencil(nZFLDsIwDERP4y0KyQbWpVyAE0TEEIuQVGn5np60U6TSBYtmZc8829KETNV62zBp1XY5XfghrvNkdqS1RM9ZulKRqclUp5T5nNMtOvSNLaRWg8IOM+ue1srm40HePGqr7e/bAMKWa7r3159gFazXOKnQ74EGiRP0ay6C/6ALwdn5Ugz5IDkJAfFO/XmeRcJfmPoD);strokeColor=#8b8b8b;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=1;html=1;whiteSpace=wrap;" parent="22" vertex="1">
+          <mxGeometry x="3" y="13" width="144" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="27" style="vsdxID=45;fillColor=#999999;gradientColor=none;shape=stencil(vVHLDsIgEPwajiQI6RfU+h8bu22JCGRB2/69kG1iazx58DazM/vIjjBtmiCi0CplCjecbZ8nYc5Ca+snJJsLEqYTph0C4Ujh4XvmEaqzont41gkL96naodXKrGF6YSfQtUi0OXXDVlqPfJNP6usotUhYbJIUMmQb/GGrAxpRljVycDBuc1hKM2LclX8/7H9nFfB+82Cd45T2+mcspcSRmu4F);strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="22" vertex="1">
+          <mxGeometry x="15" y="2" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="28" style="vsdxID=46;fillColor=#999999;gradientColor=none;shape=stencil(vVHLDsIgEPwajiQI6RfU+h8bu22JCGRB2/69kG1iazx58DazM/vIjjBtmiCi0CplCjecbZ8nYc5Ca+snJJsLEqYTph0C4Ujh4XvmEaqzont41gkL96naodXKrGF6YSfQtUi0OXXDVlqPfJNP6usotUhYbJIUMmQb/GGrAxpRljVycDBuc1hKM2LclX8/7H9nFfB+82Cd45T2+mcspcSRmu4F);strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="22" vertex="1">
+          <mxGeometry x="26" y="2" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=middle;align=center;overflow=width;vsdxID=47;fillColor=#999999;gradientColor=none;shape=stencil(nZFLDsIwDERP4y0KiYTEupQLcIKIGGIRkiot5XN60g5IpQsWzcqeebGlMZmq9bZh0qrtcrrwXVznyexIa4mes3SlIlOTqU4p8zmnW3ToG1tIrUaFHf6sB1orm48HeTE0s9r+vg0gTLmmftj+AKtgPT/TFPo90CBxgn7NRfAfdCE4W1+KMR8kJyEg3qk/z7NIuIWp3w==);strokeColor=#8b8b8b;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=1;html=1;whiteSpace=wrap;" parent="22" vertex="1">
+          <mxGeometry x="36" y="2" width="109" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="30" style="vsdxID=48;fillColor=none;gradientColor=none;strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="21" vertex="1">
+          <mxGeometry width="150" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="&lt;div style=&quot;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px; text-indent: 0px; vertical-align: middle; direction: ltr;&quot;&gt;&lt;font style=&quot;font-size: 14.11px; font-family: Calibri; color: rgb(255, 255, 255); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;HA Interface&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8.47px; font-family: Themed; color: rgb(255, 255, 255); direction: ltr; letter-spacing: 0px; line-height: 100%; opacity: 1;&quot;&gt;[Software Systeem]&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Themed&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 11.29px;&quot;&gt;Stelt de gebruiker instaat om zijn instance te gebruiken&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;vsdxID=48;fillColor=none;gradientColor=none;strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;overflow=width;;html=1;" parent="30" vertex="1">
+          <mxGeometry x="4" y="14" width="142" height="87" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="32">
+          <mxCell style="vsdxID=49;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=1;exitY=0.5047619047619047;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8" target="21" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-1" y="-1" as="offset" />
+              <Array as="points">
+                <mxPoint x="935" y="380" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="33">
+          <mxCell style="vsdxID=23;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=0;exitY=0.49523809523809526;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.49523809523809526;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6" target="7" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="34">
+          <mxCell style="vsdxID=22;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5" target="7" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="705" y="752" />
+                <mxPoint x="193" y="751.82" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="35">
+          <mxCell style="vsdxID=21;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=0.8933333333333333;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.49333333333333335;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7" target="9" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="-1" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="36">
+          <mxCell style="vsdxID=17;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=0.9733333333333334;exitY=0.47093023255813954;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="23" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-1" y="-1" as="offset" />
+              <Array as="points">
+                <mxPoint x="935" y="106" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="M11l6vVrXwv0RAU2lWqs-39" value="Bezoekt pagina" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="36">
+          <mxGeometry x="-0.2591" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="37">
+          <mxCell style="vsdxID=18;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=1;exitY=0.17142857142857143;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.819047619047619;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5" target="19" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-1" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="38">
+          <mxCell style="vsdxID=19;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=0.7866666666666666;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.49523809523809526;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6" target="19" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-1" y="-1" as="offset" />
+              <Array as="points">
+                <mxPoint x="507" y="532.5" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="39">
+          <mxCell style="vsdxID=20;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6" target="13" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="9" y="-1" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="C3 ML model" id="C3_ML_model">
+    <mxGraphModel dx="838" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:bottom;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#feffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;n&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Themed;color:#feffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;ame&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#feffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Container]&lt;/font&gt;&lt;font style=&quot;font-size:16.93px;font-family:Themed;color:#feffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="2">
+          <mxCell style="verticalAlign=bottom;align=left;overflow=width;vsdxID=1;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);dashed=1;dashPattern=12.00 6.00;strokeColor=#444444;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="45" y="306" width="715" height="261" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Achtergrond" id="3">
+          <mxCell style="vsdxID=2;fillColor=#438dd5;gradientColor=none;shape=stencil(vVTbcoMgEP0aHmUQROU5Tf6DaVCZUHGQXPr3haLJgEmmkyZ5W/awl7M3QFZjxwcBMBqt0TtxlFvbAfIBMJZ9J4y0TgJkDciq0Ua0Ru/7bXgP3P/00pc+eA+nYMcYZLW3wug7aHICMfnVbIIBN58ONZNBwSANMDILi9krRZDiyCua8Iyf5JgZbbmVuo8wxU0rMhctaxRvI2g8CjEs1FN+SvYiCl3QK6GvkvF5LslQGpFBaXkIeReZOHRdztQeJ+PLU8aE0L3e5PWzuzPnmIR/fNj8CLO0UFX1PlJ/2CEnXDawkUqFBT7jt9YTQVSlnnP8/xmIRwCXsHxpvWJS54m7ZFg84eIU1ctJ5Td7mvTTCekFdqpwvcn6Bw==);strokeColor=#3d81c3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="70" y="640" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="4" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Database&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Container: technology]&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#FFFFFF;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Geeft nieuwe gebruikersdata&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;vsdxID=2;fillColor=none;gradientColor=none;strokeColor=none;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;overflow=width;;html=1;" parent="3" vertex="1">
+          <mxGeometry y="28" width="150" height="77" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Getraind model&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Container: technology]&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;description of&lt;br/&gt;container&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#FFFFFF;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="5">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=4;fillColor=#438dd5;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=#3d81c3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="70" y="407" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Training data&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Container: technology]&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;description of&lt;br/&gt;container&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#FFFFFF;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="6">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=5;fillColor=#438dd5;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=#3d81c3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="570" y="406" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Tabel&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Container: technology]&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Originele gebruikersdata&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#FFFFFF;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="7">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=8;fillColor=#999999;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=#8b8b8b;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="340" y="580" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Tabel&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Container: technology]&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Voorspellingen vanuit het ML model&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#FFFFFF;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="8">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=9;fillColor=#999999;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=#8b8b8b;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="340" y="697" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Update&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Software System]&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Traint het model in een dev omgeving en update het model wanneer er verbeteringen zijn doorgevoerd&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#FFFFFF;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="9">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=12;fillColor=#999999;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=#8b8b8b;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="570" y="659" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#000000;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;UI Component&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#000000;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Component: technology]&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Themed;color:#000000;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#000000;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;description of&lt;br/&gt;component&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#000000;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="10">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=15;fillColor=#85bbf0;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=#78a8d8;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="65" y="75" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="11">
+          <mxCell style="vsdxID=14;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=0;exitY=0.5047619047619047;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5047619047619047;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6" target="5" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-1" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="12">
+          <mxCell style="vsdxID=7;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5" target="3" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="10" y="-1" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="13">
+          <mxCell style="vsdxID=10;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=0.9933333333333333;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.6571428571428571;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="7" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="-1" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="14">
+          <mxCell style="vsdxID=11;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=0.9933333333333333;exitY=0.6476190476190476;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.3523809523809524;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="8" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="-1" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="15">
+          <mxCell style="vsdxID=13;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=0.48;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5133333333333333;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9" target="6" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-8" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Verkeerde uitkomsten&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="16">
+          <mxCell style="vsdxID=17;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=1;exitY=0.780952380952381;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.21904761904761905;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="10" target="6" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Voorspellingen&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="17">
+          <mxCell style="vsdxID=16;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=0.49333333333333335;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5" target="10" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-9" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Page-4" id="Page-4">
+    <mxGraphModel dx="472" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:bottom;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#000000;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Supervised instance&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#000000;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Software System]&lt;/font&gt;&lt;font style=&quot;font-size:16.93px;font-family:Themed;color:#000000;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="2">
+          <mxCell style="verticalAlign=bottom;align=left;overflow=width;vsdxID=1;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);dashed=1;dashPattern=12.00 6.00;strokeColor=#444444;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="340" y="40" width="780" height="760" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Achtergrond" id="3">
+          <mxCell style="vsdxID=3;fillColor=#438dd5;gradientColor=none;shape=stencil(vVTbcoMgEP0aHmUQROU5Tf6DaVCZUHGQXPr3haLJgEmmkyZ5W/awl7M3QFZjxwcBMBqt0TtxlFvbAfIBMJZ9J4y0TgJkDciq0Ua0Ru/7bXgP3P/00pc+eA+nYMcYZLW3wug7aHICMfnVbIIBN58ONZNBwSANMDILi9krRZDiyCua8Iyf5JgZbbmVuo8wxU0rMhctaxRvI2g8CjEs1FN+SvYiCl3QK6GvkvF5LslQGpFBaXkIeReZOHRdztQeJ+PLU8aE0L3e5PWzuzPnmIR/fNj8CLO0UFX1PlJ/2CEnXDawkUqFBT7jt9YTQVSlnnP8/xmIRwCXsHxpvWJS54m7ZFg84eIU1ctJ5Td7mvTTCekFdqpwvcn6Bw==);strokeColor=#3d81c3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="940" y="276" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="4" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Database&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Container: technology]&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;description of&lt;br/&gt;database&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#FFFFFF;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;vsdxID=3;fillColor=none;gradientColor=none;strokeColor=none;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;overflow=width;;html=1;" parent="3" vertex="1">
+          <mxGeometry y="28" width="150" height="77" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:bottom;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#000000;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Docker&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:bottom;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#000000;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Container]&lt;/font&gt;&lt;font style=&quot;font-size:16.93px;font-family:Themed;color:#feffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="5">
+          <mxCell style="verticalAlign=bottom;align=left;overflow=width;vsdxID=4;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);dashed=1;dashPattern=12.00 6.00;strokeColor=#444444;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="927" y="244" width="172" height="195" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:bottom;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#000000;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Docker&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#000000;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Container]&lt;/font&gt;&lt;font style=&quot;font-size:16.93px;font-family:Themed;color:#000000;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="6">
+          <mxCell style="verticalAlign=bottom;align=left;overflow=width;vsdxID=5;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);dashed=1;dashPattern=12.00 6.00;strokeColor=#444444;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="360" y="60" width="188" height="168" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Addon&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Software System]&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;description of&lt;br/&gt;system&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#FFFFFF;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="7">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=6;fillColor=#1168bd;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=#1864ad;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="380" y="75" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:bottom;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#000000;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Docker&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#000000;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Container]&lt;/font&gt;&lt;font style=&quot;font-size:16.93px;font-family:Themed;color:#feffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="8">
+          <mxCell style="verticalAlign=bottom;align=left;overflow=width;vsdxID=7;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);dashed=1;dashPattern=12.00 6.00;strokeColor=#444444;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="360" y="255" width="188" height="168" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;HA OS&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Software System]&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;description of&lt;br/&gt;system&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#FFFFFF;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="9">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=8;fillColor=#1168bd;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=#1864ad;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="379" y="267" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Achtergrond" id="10">
+          <mxCell style="vsdxID=9;fillColor=#999999;gradientColor=none;shape=stencil(vVTbcoMgEP0aHmUQROU5Tf6DaVCZUHGQXPr3haLJgEmmkyZ5W/awl7M3QFZjxwcBMBqt0TtxlFvbAfIBMJZ9J4y0TgJkDciq0Ua0Ru/7bXgP3P/00pc+eA+nYMcYZLW3wug7aHICMfnVbIIBN58ONZNBwSANMDILi9krRZDiyCua8Iyf5JgZbbmVuo8wxU0rMhctaxRvI2g8CjEs1FN+SvYiCl3QK6GvkvF5LslQGpFBaXkIeReZOHRdztQeJ+PLU8aE0L3e5PWzuzPnmIR/fNj8CLO0UFX1PlJ/2CEnXDawkUqFBT7jt9YTQVSlnnP8/xmIRwCXsHxpvWJS54m7ZFg84eIU1ctJ5Td7mvTTCekFdqpwvcn6Bw==);strokeColor=#8b8b8b;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="938" y="75" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="11" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Data volume&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Container: technology]&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;description of&lt;br/&gt;database&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#FFFFFF;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;vsdxID=9;fillColor=none;gradientColor=none;strokeColor=none;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;overflow=width;;html=1;" parent="10" vertex="1">
+          <mxGeometry y="28" width="150" height="77" as="geometry" />
+        </mxCell>
+        <UserObject label="" tags="Achtergrond" id="12">
+          <mxCell style="vsdxID=10;fillColor=none;gradientColor=none;strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="80" y="75" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="13" style="vsdxID=11;fillColor=none;gradientColor=none;strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="12" vertex="1">
+          <mxGeometry width="150" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="14" style="vsdxID=12;fillColor=#3d81c3;gradientColor=none;shape=stencil(nZFLDsIwDERP4y0KyQbWpVyAE0TEEIuQVGn5np60U6TSBYtmZc8829KETNV62zBp1XY5XfghrvNkdqS1RM9ZulKRqclUp5T5nNMtOvSNLaRWg8IOM+ue1srm40HePGqr7e/bAMKWa7r3159gFazXOKnQ74EGiRP0ay6C/6ALwdn5Ugz5IDkJAfFO/XmeRcJfmPoD);strokeColor=#3d81c3;strokeWidth=0;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=1;html=1;whiteSpace=wrap;" parent="13" vertex="1">
+          <mxGeometry width="150" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="text;vsdxID=12;fillColor=none;gradientColor=none;strokeColor=none;strokeWidth=0;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=1;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;overflow=width;;html=1;" parent="14" vertex="1">
+          <mxGeometry x="8" y="3" width="136" height="97.2" as="geometry" />
+        </mxCell>
+        <mxCell id="16" style="vsdxID=13;fillColor=#408dd5;gradientColor=none;shape=stencil(vVHLDsIgEPwajiQI6RfU+h8bu22JCGRB2/69kG1iazx58DazM/vIjjBtmiCi0CplCjecbZ8nYc5Ca+snJJsLEqYTph0C4Ujh4XvmEaqzont41gkL96naodXKrGF6YSfQtUi0OXXDVlqPfJNP6usotUhYbJIUMmQb/GGrAxpRljVycDBuc1hKM2LclX8/7H9nFfB+82Cd45T2+mcspcSRmu4F);strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="13" vertex="1">
+          <mxGeometry x="4" y="2" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=middle;align=center;overflow=width;vsdxID=14;fillColor=#438dd5;gradientColor=none;shape=stencil(nZFLDsIwDERP4y0KyQbWpVyAE0TEEIuQVGn5np60U6TSBYtmZc8829KETNV62zBp1XY5XfghrvNkdqS1RM9ZulKRqclUp5T5nNMtOvSNLaRWg8IOM+ue1srm40HePGqr7e/bAMKWa7r3159gFazXOKnQ74EGiRP0ay6C/6ALwdn5Ugz5IDkJAfFO/XmeRcJfmPoD);strokeColor=#3d81c3;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=1;html=1;whiteSpace=wrap;" parent="13" vertex="1">
+          <mxGeometry x="3" y="13" width="144" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="18" style="vsdxID=15;fillColor=#408dd5;gradientColor=none;shape=stencil(vVHLDsIgEPwajiQI6RfU+h8bu22JCGRB2/69kG1iazx58DazM/vIjjBtmiCi0CplCjecbZ8nYc5Ca+snJJsLEqYTph0C4Ujh4XvmEaqzont41gkL96naodXKrGF6YSfQtUi0OXXDVlqPfJNP6usotUhYbJIUMmQb/GGrAxpRljVycDBuc1hKM2LclX8/7H9nFfB+82Cd45T2+mcspcSRmu4F);strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="13" vertex="1">
+          <mxGeometry x="15" y="2" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="19" style="vsdxID=16;fillColor=#408dd5;gradientColor=none;shape=stencil(vVHLDsIgEPwajiQI6RfU+h8bu22JCGRB2/69kG1iazx58DazM/vIjjBtmiCi0CplCjecbZ8nYc5Ca+snJJsLEqYTph0C4Ujh4XvmEaqzont41gkL96naodXKrGF6YSfQtUi0OXXDVlqPfJNP6usotUhYbJIUMmQb/GGrAxpRljVycDBuc1hKM2LclX8/7H9nFfB+82Cd45T2+mcspcSRmu4F);strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="13" vertex="1">
+          <mxGeometry x="26" y="2" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=middle;align=center;overflow=width;vsdxID=17;fillColor=#438dd5;gradientColor=none;shape=stencil(nZFLDsIwDERP4y0KiYTEupQLcIKIGGIRkiot5XN60g5IpQsWzcqeebGlMZmq9bZh0qrtcrrwXVznyexIa4mes3SlIlOTqU4p8zmnW3ToG1tIrUaFHf6sB1orm48HeTE0s9r+vg0gTLmmftj+AKtgPT/TFPo90CBxgn7NRfAfdCE4W1+KMR8kJyEg3qk/z7NIuIWp3w==);strokeColor=#3d81c3;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=1;html=1;whiteSpace=wrap;" parent="13" vertex="1">
+          <mxGeometry x="36" y="2" width="109" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="21" style="vsdxID=18;fillColor=none;gradientColor=none;strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="12" vertex="1">
+          <mxGeometry width="150" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;name&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Container: technology]&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;description of&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;container&lt;/font&gt;&lt;font style=&quot;font-size:16.93px;font-family:Themed;color:#4672c4;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;vsdxID=18;fillColor=none;gradientColor=none;strokeColor=none;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;overflow=width;;html=1;" parent="21" vertex="1">
+          <mxGeometry x="4" y="14" width="142" height="87" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Addon&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[Software System]&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#ffffff;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;description of&lt;br/&gt;system&lt;/font&gt;&lt;font style=&quot;font-size:14.11px;font-family:Calibri;color:#FFFFFF;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/div&gt;" tags="Achtergrond" id="23">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=25;fillColor=#1168bd;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=#1864ad;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="380" y="270" width="150" height="105" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="24">
+          <mxCell style="vsdxID=19;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=1;exitY=0.49523809523809526;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.49523809523809526;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="13" target="7" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="-1" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="25">
+          <mxCell style="vsdxID=23;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=0.49333333333333335;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="10" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-10" y="-1" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="26">
+          <mxCell style="vsdxID=20;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=1;exitY=0.9523809523809523;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.0380952380952381;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="12" target="9" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-1" y="-1" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="27">
+          <mxCell style="vsdxID=21;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=1;exitY=0.7523809523809524;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.23809523809523808;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7" target="3" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-1" y="-1" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:11.29px;font-family:Calibri;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;Uses&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:8.47px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;[technology]&lt;/font&gt;&lt;font style=&quot;font-size:11.29px;font-family:Themed;color:#345593;direction:ltr;letter-spacing:0px;line-height:100%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Achtergrond" id="28">
+          <mxCell style="vsdxID=22;edgeStyle=none;dashed=1;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeColor=#444444;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;align=center;overflow=width;exitX=1;exitY=0.5142857142857142;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.4857142857142857;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9" target="3" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-1" y="-1" as="offset" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
