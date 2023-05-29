@@ -1,0 +1,9 @@
+alias: 'Send a notification when the front door is opened'
+trigger:
+  platform: state
+  entity_id: binary_sensor.front_door
+  to: 'on'
+action:
+  - service: notify.notify
+    data:
+      message: 'Front door is open'

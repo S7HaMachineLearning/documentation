@@ -1,0 +1,9 @@
+alias: 'Turn off the porch light when the front door is locked'
+trigger:
+  platform: state
+  entity_id: lock.front_door
+  to: 'locked'
+action:
+  - service: light.turn_off
+    target:
+      entity_id: light.porch

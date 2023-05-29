@@ -1,0 +1,13 @@
+alias: 'Turn on the hallway lights when the front door is opened'
+trigger:
+  platform: state
+  entity_id: binary_sensor.front_door
+  to: 'on'
+condition:
+  - condition: state
+    entity_id: light.hallway
+    state: 'off'
+action:
+  - service: light.turn_on
+    target:
+      entity_id: light.hallway

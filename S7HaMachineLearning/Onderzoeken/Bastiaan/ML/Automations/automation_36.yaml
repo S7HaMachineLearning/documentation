@@ -1,0 +1,11 @@
+alias: 'Turn off the bathroom lights when no motion is detected for 5 minutes'
+trigger:
+  platform: state
+  entity_id: binary_sensor.bathroom_motion
+  to: 'off'
+  for:
+    minutes: 5
+action:
+  - service: light.turn_off
+    target:
+      entity_id: light.bathroom

@@ -1,0 +1,13 @@
+alias: 'Send a notification when the washing machine finishes and the input boolean for notifications is on'
+trigger:
+  platform: state
+  entity_id: sensor.washing_machine_power
+  to: 'off'
+condition:
+  - condition: state
+    entity_id: input_boolean.washing_machine_notifications
+    state: 'on'
+action:
+  - service: notify.notify
+    data:
+      message: 'Washing machine has finished.'

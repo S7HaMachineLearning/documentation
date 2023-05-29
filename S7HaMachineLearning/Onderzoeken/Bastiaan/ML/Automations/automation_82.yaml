@@ -1,0 +1,11 @@
+alias: 'Send a notification when the garage door is left open for more than 10 minutes'
+trigger:
+  platform: state
+  entity_id: binary_sensor.garage_door
+  to: 'on'
+  for:
+    minutes: 10
+action:
+  - service: notify.notify
+    data:
+      message: 'The garage door has been open for more than 10 minutes.'

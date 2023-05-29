@@ -1,0 +1,9 @@
+alias: 'Turn off lights when person goes to bed'
+trigger:
+  platform: state
+  entity_id: input_boolean.bedtime
+  to: 'on'
+action:
+  - service: light.turn_off
+    target:
+      entity_id: light.example_light

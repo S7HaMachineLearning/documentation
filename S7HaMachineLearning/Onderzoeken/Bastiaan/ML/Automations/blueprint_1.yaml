@@ -1,0 +1,29 @@
+blueprint:
+  name: Turn on lights when person comes home and sun is under
+  description: 'Turns on lights when a person comes home and the sun is under.'
+  domain: automation
+  input:
+    person_entity:
+      name: Person
+      selector:
+        entity:
+          domain: person
+    light_target:
+      name: Light
+      selector:
+        target:
+          entity:
+            domain: light
+
+trigger:
+  platform: state
+  entity_id: !input 'person_entity'
+  to: 'home'
+
+condition:
+  - condition: sun
+    before: sunset
+
+action:
+  - service: light.turn_on
+    target: !input 'light_target'

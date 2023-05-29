@@ -1,0 +1,9 @@
+alias: 'Turn off the garage lights when the garage door is closed'
+trigger:
+  platform: state
+  entity_id: cover.garage_door
+  to: 'closed'
+action:
+  - service: light.turn_off
+    target:
+      entity_id: light.garage

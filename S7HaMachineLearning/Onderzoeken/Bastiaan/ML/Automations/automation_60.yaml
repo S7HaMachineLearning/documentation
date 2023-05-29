@@ -1,0 +1,13 @@
+alias: 'Turn on the bathroom fan when the humidity is above 60%'
+trigger:
+  platform: numeric_state
+  entity_id: sensor.bathroom_humidity
+  above: 60
+condition:
+  - condition: state
+    entity_id: fan.bathroom_fan
+    state: 'off'
+action:
+  - service: fan.turn_on
+    target:
+      entity_id: fan.bathroom_fan

@@ -1,0 +1,15 @@
+alias: 'Turn off the TV when no motion is detected in the living room for 30 minutes'
+trigger:
+  platform: state
+  entity_id: binary_sensor.living_room_motion
+  to: 'off'
+  for:
+    minutes: 30
+condition:
+  - condition: state
+    entity_id: media_player.tv
+    state: 'on'
+action:
+  - service: media_player.turn_off
+    target:
+      entity_id: media_player.tv

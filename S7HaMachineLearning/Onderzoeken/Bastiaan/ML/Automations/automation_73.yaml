@@ -1,0 +1,12 @@
+alias: 'Turn on the porch light at sunset if it's off'
+trigger:
+  platform: sun
+  event: sunset
+condition:
+  - condition: state
+    entity_id: light.porch
+    state: 'off'
+action:
+  - service: light.turn_on
+    target:
+      entity_id: light.porch

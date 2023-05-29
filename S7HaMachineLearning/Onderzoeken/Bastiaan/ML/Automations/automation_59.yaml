@@ -1,0 +1,15 @@
+alias: 'Turn off the hallway light after 3 minutes of no motion'
+trigger:
+  platform: state
+  entity_id: binary_sensor.hallway_motion
+  to: 'off'
+  for:
+    minutes: 3
+condition:
+  - condition: state
+    entity_id: light.hallway
+    state: 'on'
+action:
+  - service: light.turn_off
+    target:
+      entity_id: light.hallway

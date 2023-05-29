@@ -1,0 +1,12 @@
+alias: 'Turn off the porch light at sunrise if it's on'
+trigger:
+  platform: sun
+  event: sunrise
+condition:
+  - condition: state
+    entity_id: light.porch
+    state: 'on'
+action:
+  - service: light.turn_off
+    target:
+      entity_id: light.porch

@@ -1,0 +1,13 @@
+alias: 'Turn on lights when motion is detected in the hallway'
+trigger:
+  platform: state
+  entity_id: binary_sensor.hallway_motion
+  to: 'on'
+condition:
+  condition: state
+  entity_id: sun.sun
+  state: 'below_horizon'
+action:
+  - service: light.turn_on
+    target:
+      entity_id: light.hallway

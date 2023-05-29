@@ -1,0 +1,11 @@
+alias: 'Send a notification when the refrigerator door is left open for more than 5 minutes'
+trigger:
+  platform: state
+  entity_id: binary_sensor.refrigerator_door
+  to: 'on'
+  for:
+    minutes: 5
+action:
+  - service: notify.notify
+    data:
+      message: 'The refrigerator door has been left open for more than 5 minutes.'

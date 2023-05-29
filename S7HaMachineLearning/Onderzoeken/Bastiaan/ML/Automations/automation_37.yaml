@@ -1,0 +1,13 @@
+alias: 'Turn on the kitchen lights when motion is detected'
+trigger:
+  platform: state
+  entity_id: binary_sensor.kitchen_motion
+  to: 'on'
+condition:
+  condition: sun
+  after: sunset
+  before: sunrise
+action:
+  - service: light.turn_on
+    target:
+      entity_id: light.kitchen

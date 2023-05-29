@@ -1,0 +1,11 @@
+alias: 'Turn off the living room lights when no motion is detected for 10 minutes'
+trigger:
+  platform: state
+  entity_id: binary_sensor.living_room_motion
+  to: 'off'
+  for:
+    minutes: 10
+action:
+  - service: light.turn_off
+    target:
+      entity_id: group.living_room_lights

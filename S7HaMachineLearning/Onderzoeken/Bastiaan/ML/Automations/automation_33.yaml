@@ -1,0 +1,13 @@
+alias: 'Turn on the bedroom lights when motion is detected'
+trigger:
+  platform: state
+  entity_id: binary_sensor.bedroom_motion
+  to: 'on'
+condition:
+  condition: sun
+  after: sunset
+  before: sunrise
+action:
+  - service: light.turn_on
+    target:
+      entity_id: light.bedroom

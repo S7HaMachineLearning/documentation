@@ -1,0 +1,23 @@
+alias: 'Turn on heating when temperature is low and someone is home'
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.living_room_temperature
+    below: 20
+  - platform: state
+    entity_id: group.family
+    to: 'home'
+condition:
+  condition: and
+  conditions:
+    - condition: state
+      entity_id: group.family
+      state: 'home'
+    - condition: numeric_state
+      entity_id: sensor.living_room_temperature
+      below: 20
+action:
+  - service: climate.set_temperature
+    target:
+      entity_id: climate.living_room
+    data:
+      temperature: 22

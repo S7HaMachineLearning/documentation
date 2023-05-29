@@ -1,0 +1,13 @@
+alias: 'Turn on the living room lights when motion is detected'
+trigger:
+  platform: state
+  entity_id: binary_sensor.living_room_motion
+  to: 'on'
+condition:
+  - condition: state
+    entity_id: light.living_room
+    state: 'off'
+action:
+  - service: light.turn_on
+    target:
+      entity_id: light.living_room
