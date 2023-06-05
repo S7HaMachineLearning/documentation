@@ -26,7 +26,7 @@ paths:
       description: Get a list of all configured AA sensors
       responses:
         '200':
-          description: successful operation
+          description: Successful operation
           content:
             application/json:
               schema:
@@ -42,7 +42,7 @@ paths:
       summary: Save a AA sensor
       description: Add a newly configured sensor to AA
       requestBody:
-        description: Update an existent pet in the store
+        description: Add a newly configured sensor to AA
         content:
           application/json:
             schema:
@@ -50,7 +50,7 @@ paths:
         required: true
       responses:
         '200':
-          description: successful operation
+          description: Successful operation
           content:
             application/json:
               schema:
@@ -67,7 +67,7 @@ paths:
       tags:
         - Sensors
       summary: Deletes a sensor
-      description: delete a sensor
+      description: Delete a sensor
       parameters:
         - name: sensorId
           in: path
@@ -87,7 +87,7 @@ paths:
       description: Get a list of all sensors in Home Assistant
       responses:
         '200':
-          description: successful operation
+          description: Successful operation
           content:
             application/json:
               schema:
@@ -102,7 +102,7 @@ paths:
       description: Get a list of all automation's in AA
       responses:
         '200':
-          description: successful operation
+          description: Successful operation
           content:
             application/json:
               schema:
@@ -120,7 +120,7 @@ paths:
       description: Get a list of all given feedback on automation's
       responses:
         '200':
-          description: successful operation
+          description: Successful operation
           content:
             application/json:
               schema:
@@ -143,7 +143,7 @@ paths:
               $ref: '#/components/schemas/Feedback'
       responses:
         '200':
-          description: successful operation
+          description: Successful operation
           content:
             application/json:
               schema:
