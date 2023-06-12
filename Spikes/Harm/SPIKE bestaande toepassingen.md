@@ -79,9 +79,44 @@ De techniek die google voor de thermostaat gebruikt word niet openbaar gemaakt. 
 
 # Conclusie
 
+<<<<<<< Updated upstream
 Het is mogelijk om met machine learning een home assistan instance te ondersteunen. Het prioject 'The silly home' is hiervan een bewijs. Of het veel word gebruikt is niet duidelijk omdat grote bedrijven hun techniek niet prijs geven. 
+=======
+In ons project is gebruikesgemak en eigenbeheer een belangrijk punt. Denk hierbij aan een vorspelling die word gedaan op basis van jouw gedrag maar jij wil hier zelf nog een kleine aanpassing op doen. Alle 3 de oplossingen die hierboven worden beschreven zijn niet door de gebruiker te beinvoelden naast dat je gebruik maakt van je eigen apperatuur. 
+
+Het is mogelijk om met machine learning een home assistan instance te ondersteunen. Het prioject 'The silly home' is hiervan een bewijs. Ook met het gebruik van een thermostaat is het mogelijk. Wat wel opvalt is dat beide oplossingen gebruik maken van de cloud om de machine learning optimaal toe te kunnen passen. 
+
+De Nest en Nala oplossingen geven een goed beeld over hoe je gecontroleerd gebruikers gedrag kan volgen. Zo maakt de Nala gebruik van specifiek toegewezen knoppen die worden gemonitort. Dit kan twee redenen hebben. De eerste reden zou kunnen zijn dat je een beheer heb op welke entitys wel en niet worden meegenomen in de voorspellingen. De tweede reden zou een verdienmodel kunnen zijn. 
+De nest maakt gebruik van beschikbaren entitys zoals de aanwezigheid van een persoon, de temperatuur binnen en buiten en het gebruik.
+
+## Machine Learning of Algoritmes
+
+Hoewel Machine learning een ideale oplossing is voor het voorspellen van gedrag kan dit gevaarlijk zijn binnen een installatie van home assistant. Er zit een beperking in de hoeveelheid data die word gegenereerd en de rekenkracht van de computer. In zowel de nest als de silly home projecten zie je dat cloud word gebruikt voor optimale performance. 
+
+## Mogelijkheden machine learning in Home Assistant
+
+Omdat ongeveer 50% van de home assistant gebruiker gebruik maakt van een Raspberry pi of een soort gelijke hardware (arm) (zie [bron 7](https://analytics.home-assistant.io/)). Kan je aannemen dat de data sets niet erg groot zijn. Standaard verwijderd home assistant na 7 dagen de meeste data. Dit is omdat deze hardware standaard gebruik maakt van een micro sd card. Naast de kleine data set is hier ook een beperkte rekenkracht beschikbaar. Hierdoor word het lastig gemaakt om op deze apparaten lokaal macine learning te gebruiken.  
+
+Hoe zit het dan met de andere 50% van de Home Assistant installaties? 
+Deze installaties kunnen op veel verschillende hardware worden gedraaid. Denk hierbij aan een oude laptop, (mini)computer of NAS. De specs kunnen bij deze apparaten erg uiteen lopen.  
+
+Omdat bijna 70% van de installaties HA OS gebruikt kan je aannemen dat deze apparaten niet veel rekenkracht met zich meenemen. Dit is een aanname omdat HA OS geen hoge eissen heeft qua specs. 
+
+## advies
+
+Er zijn 3 opties mogelijk om de oplossing te maken en de keuze zal afhankelijk zijn van de PoC die zal volgen. Uit de PoC zal gaan blijken wat het effect is van een grote bundel data die door een dergelijk model zal gaan lopen. Ook zal er duidelijk moeten worden of de data in Home Assistant bruikbaar is om voorspellingen te doen.  
+
+### Optie 1. 
+Het gebruik maken van een lokale machine learning oplossing.
+Wanneer je deze oplossing gebruikt zal een groot deel van de home assistant gebruikers mogelijk performance problemen ervaren en mogelijk verkeerde voorspellingen krijgen door teweining data. Het voordeel is dat er niet nagedacht hoeft te worden over ingewikkelde algorimes en cloud oplossingen. Ook blijft hier alle data lokaal en heb je geen problemen data privacy. 
+
+### Optie 2. 
+Het gebruik maken van een machine learning oplossing in de cloud. Deze oplossing zou veruit de meest krachtige zijn omdat je geen gebruik hoeft te maken van de hardware van de gebruiker. De nadelen hiervan zijn de kosten en de data die in de cloud komt te staan. 
+>>>>>>> Stashed changes
 
 Wel geven de Nest en Nala oplossingen een goed beeld over hoe je gecontroleerd gebruikers gedrag kan volgen. Dit zal mee genomen worden in de overweging tussen ML en Algoritmes. 
+
+
 
 # Bronen
 
